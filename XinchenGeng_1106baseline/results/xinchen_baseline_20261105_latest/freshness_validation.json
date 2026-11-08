@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "validated_at_utc": "2026-11-06T01:33:33.306195+00:00",
+  "run_date_local": "2026-11-05",
+  "timezone": "America/Los_Angeles",
+  "snapshot_root": "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261105_latest",
+  "round": 1392,
+  "current_round_after_download": 1392,
+  "downloaded_bytes": 8271793098,
+  "raw_validation_max_date": "2026-10-30",
+  "mature_validation_max_date": "2026-07-31",
+  "new_scored_dates": [
+    "2026-07-31"
+  ],
+  "new_prediction_rows": 7149,
+  "common_prediction_rows_exactly_identical": 2465414,
+  "removed_prediction_rows": 0,
+  "new_date_saved_model_prediction_check": {
+    "date": "2026-07-31",
+    "rows": 7149,
+    "maximum_absolute_error": 0.0
+  },
+  "new_date_independent_ncorr_check": {
+    "date": "2026-07-31",
+    "rows": 7149,
+    "neutralizer_columns": 300,
+    "ncorr": 0.0051816123468909295,
+    "absolute_error": 2.949029909160572e-17
+  },
+  "independent_summary_checks": {
+    "annual_rows": 8,
+    "negative_score_periods": 30,
+    "method": "Separate year filters and chronological negative-score loop; source copy hashes and exact common prediction rows also checked."
+  },
+  "snapshot_sha256": "bb9a5af96a43fdb19c82d505e6cdaf6abb165e765df8b7b0a48586d81f2df7e4",
+  "raw_manifest_sha256": "e9312a632b17519efb27434fb8dad45f17aad69b31489ff628bd35d8558c3233",
+  "source_files_sha256": {
+    "run.json": "78c370a3230b23a2aef396d8cd409f00f12581077375a05218a7daa9e0db0572",
+    "validation.json": "e10bac07058c781d554af5abb4e917bdcee3f9f5fd7c67a0503aa1d388f36a9a",
+    "per_date_metrics.csv": "f1f5fef8bf0b34ddd2f640b5e09cf6f30cc218eab3d135f91825690c8d23268c",
+    "new_dates_metrics.csv": "5ee284367894a6b4839e482ee6fa15e64047b3dae7a3812e883fb07345a4e1f3",
+    "data_update_comparison.json": "79b74b6ccc729fabb8625cea951e8c55a3c0ba1f226903032db6aa9beae6e1b2",
+    "annual_corr.csv": "199fd2b719ba22ba2fbe8ce093240071e711a64aa226eaaeeb658aa3bb050580",
+    "failure_periods.csv": "c6f3ffeb0e1fdac835b069bec8095142ce8e6e5e0a31385d46e49ae61e72a97b"
+  },
+  "scope": "Latest available round-pinned historical data; labels restricted to eligible mature validation rows. One newly added date is insufficient evidence of stable improvement or live performance."
+}

@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "version": "v6.0",
+  "round": 1392,
+  "available_files": [
+    "v6.0/features.json",
+    "v6.0/live.parquet",
+    "v6.0/live_benchmark_models.parquet",
+    "v6.0/live_example_preds.csv",
+    "v6.0/live_example_preds.parquet",
+    "v6.0/live_neutralizer.parquet",
+    "v6.0/train.parquet",
+    "v6.0/train_benchmark_models.parquet",
+    "v6.0/train_neutralizer.parquet",
+    "v6.0/validation.parquet",
+    "v6.0/validation_benchmark_models.parquet",
+    "v6.0/validation_example_preds.csv",
+    "v6.0/validation_example_preds.parquet",
+    "v6.0/validation_neutralizer.parquet"
+  ],
+  "files": [
+    {
+      "dataset": "v6.0/features.json",
+      "path": "data\\raw\\v6.0\\features.json",
+      "round": 1392,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261104/v6.0/features.json",
+      "remote_metadata": {
+        "LastModified": "Thu, 05 Nov 2026 12:53:11 GMT",
+        "ETag": "\"05d9b2c786a2a2d336ed43d5b4956355\"",
+        "ContentLength": 47870,
+        "x-amz-version-id": "_fVH1PNPN1WV6GHdfnt.TR6e_woFXRrz"
+      },
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+      "verified_at_utc": "2026-11-06T01:23:54.015554+00:00",
+      "status": "downloaded",
+      "seconds": 0.71
+    },
+    {
+      "dataset": "v6.0/train.parquet",
+      "path": "data\\raw\\v6.0\\train.parquet",
+      "round": 1392,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261104/v6.0/train.parquet",
+      "remote_metadata": {
+        "LastModified": "Thu, 05 Nov 2026 12:53:11 GMT",
+        "ETag": "\"8799351adb75dadb9796e12ba9a5a955-260\"",
+        "ContentLength": 2176263434,
+        "x-amz-version-id": "s9fIKvdOMFPNlXdpp2Uj18PQTTqDLTZM"
+      },
+      "bytes": 2176263434,
+      "sha256": "58c1667a07323b072a12dca1924ec90a6c0adfe2c1100cd2b052930c3ed6f4ce",
+      "verified_at_utc": "2026-11-06T01:28:26.416221+00:00",
+      "status": "downloaded",
+      "seconds": 273.11
+    },
+    {
+      "dataset": "v6.0/validation.parquet",
+      "path": "data\\raw\\v6.0\\validation.parquet",
+      "round": 1392,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261104/v6.0/validation.parquet",
+      "remote_metadata": {
+        "LastModified": "Thu, 05 Nov 2026 12:53:11 GMT",
+        "ETag": "\"68f3ee6a26e11eb5dca45ed556e79058-168\"",
+        "ContentLength": 1403495011,
+        "x-amz-version-id": "zRSHY6hvd9gegnTjeCY3VdQA5_8O_oAN"
+      },
+      "bytes": 1403495011,
+      "sha256": "f213c392fdd079691b4aedffcac0b0c9daaa631d986aa708a16e07774ba755c9",
+      "verified_at_utc": "2026-11-06T01:27:00.611472+00:00",
+      "status": "downloaded",
+      "seconds": 187.31
+    },
+    {
+      "dataset": "v6.0/validation_example_preds.parquet",
+      "path": "data\\raw\\v6.0\\validation_example_preds.parquet",
+      "round": 1392,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261104/v6.0/validation_example_preds.parquet",
+      "remote_metadata": {
+        "LastModified": "Thu, 05 Nov 2026 12:53:11 GMT",
+        "ETag": "\"924048d16d6e45c18b2b11a2fcf52ed6-3\"",
+        "ContentLength": 17349207,
+        "x-amz-version-id": "FwhvIYuMv0P2KSXb9uO95HnDzjUcWSMO"
+      },
+      "bytes": 17349207,
+      "sha256": "a630e74c6e51949d37697aa9465f77f7a409de689352d3383673dfd70bccd531",
+      "verified_at_utc": "2026-11-06T01:27:04.096074+00:00",
+      "status": "downloaded",
+      "seconds": 3.48
+    },
+    {
+      "dataset": "v6.0/validation_neutralizer.parquet",
+      "path": "data\\raw\\v6.0\\validation_neutralizer.parquet",
+      "round": 1392,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261104/v6.0/validation_neutralizer.parquet",
+      "remote_metadata": {
+        "LastModified": "Thu, 05 Nov 2026 12:53:11 GMT",
+        "ETag": "\"9b19f68b135f0fa1b276eae2e1c5cb77-558\"",
+        "ContentLength": 4674637576,
+        "x-amz-version-id": "Vza1RDoP8hqsM7H5bXOhq8xASDe9ktHM"
+      },
+      "bytes": 4674637576,
+      "sha256": "7ea184c6d8e1b4350d41fddcba747002b8a059c8e6aa43ab0333858bf5d9ef56",
+      "verified_at_utc": "2026-11-06T01:30:55.182167+00:00",
+      "status": "downloaded",
+      "seconds": 421.17
+    }
+  ],
+  "failures": [],
+  "completed_utc": "2026-11-06T01:30:55.210952+00:00"
+}

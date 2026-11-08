@@ -1,0 +1,151 @@
+{
+  "archive_label": "XinchenGeng_1030baseline",
+  "selection": {
+    "git_commit": "fcfd8b15e23fc190f3c61a094d9fff5f9035979d",
+    "source_path": "XinchenGeng",
+    "result": "xinchen_baseline_20261030"
+  },
+  "packaging_notes": "Folder names and README navigation reflect the requested archive labels; original code, references and recorded result bytes are preserved. Raw/processed datasets, models and row-level predictions are excluded.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 150,
+      "sha256": "170c629709ef8612cea795d2ff7ccd380a7519a8ff7a18dd4fccd69203d8c17d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "1ea46165b15a05f7cd656fe8dec53395b074a82ed98b4b22fd3e3da4d2a07349"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7028,
+      "sha256": "f5f31e0069ceb4e8336dca7ee6e7f88fb75cab5c05731fdb410f06e54eef0452"
+    },
+    {
+      "path": "references/NUMERAI_EXAMPLE_SCRIPTS_LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "0f08863fb24c61a041ffe85f28711afa78d1b4438a55acaf36b99056d027d29f"
+    },
+    {
+      "path": "references/official_sources.json",
+      "bytes": 9096,
+      "sha256": "b5726c935be4b5bf3a1f99c5715d19a3caac1110f743114d4e59e68c1fe41d20"
+    },
+    {
+      "path": "references/v6_example_model.ipynb",
+      "bytes": 24854,
+      "sha256": "b826a0c7b964a8158483a6666c793de8cc94c2e408bd429e5e3b644574bad598"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 201,
+      "sha256": "dbd4acd1138927adfe3a85741e50e5d2127e14666ca70c59c2649e5b4fe4769a"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/data_provenance/cleaning_report.json",
+      "bytes": 91732,
+      "sha256": "26d1b92830ca95b03d58cc1446ce7860f96db04831f40fe5a462c058166f6176"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/data_provenance/date_counts.csv",
+      "bytes": 28264,
+      "sha256": "32b064944ffe1f332eeae0bbe4e5d8fa94234fa70806cad0fcaf3bdf26f2e23f"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/data_provenance/features.json",
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/data_provenance/manifest.json",
+      "bytes": 2353,
+      "sha256": "0dd20a83ddbafb93d8b83c13bd59e4afa24bbf846d580b9d3b29d5a3bb58cc6c"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/data_provenance/split_manifest.json",
+      "bytes": 1558,
+      "sha256": "4199fefaf26f4343d8231cb907afdad28b2f4e4e9c25c5782e64a3a79e1fefa6"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/figure_sources.json",
+      "bytes": 1045,
+      "sha256": "5e9811a10e88c38e3959101cd826af29a85b2c6ad5182bb518b14b91864258e2"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/figures/cumulative_corr.png",
+      "bytes": 164471,
+      "sha256": "31a9a1901bfab62c507072fefc5631f7ab7f0981eabbbd7b9757219b7988a259"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/figures/per_date_corr.png",
+      "bytes": 282612,
+      "sha256": "537d4b0450017814888124525164ebe6d98a896f41723f20bb671c0a61d32fcf"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/metrics.csv",
+      "bytes": 993,
+      "sha256": "7c6dccceef4148979f1b6f7e8cc5fc6f31927409e369a5a899ea04e173c5194a"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/per_date_metrics.csv",
+      "bytes": 29757,
+      "sha256": "58b31f1839a7ec8495049444f3a8bafec68adffa127b230edc72371667750bb3"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/protocol.json",
+      "bytes": 6096,
+      "sha256": "b87041c80131ca28714cd7b7b5c3a7759588537441b5d01f395929591fd7e21b"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/run.json",
+      "bytes": 7695,
+      "sha256": "478e3dddde2700c6d273035dec284ab8643e8d2cbe3fa6b42ed64c7961920d2b"
+    },
+    {
+      "path": "results/xinchen_baseline_20261030/validation.json",
+      "bytes": 1887,
+      "sha256": "5f1a688d3cb5cc5e73a295e98e6c4e8b5d17df2fe6656216da77ae5f413ec03d"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "bytes": 3931,
+      "sha256": "54941a9a4dfc6f3e4161d544253d703514503178213485f8025b330034b95e8a"
+    },
+    {
+      "path": "scripts/plot_xinchen_baseline.py",
+      "bytes": 9533,
+      "sha256": "6632d2abfba0fc73a22ca755f0b1863de68fc29c80d3515cc226115a707d76b7"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "bytes": 11412,
+      "sha256": "2293119136e0114fa35e0e04f84501329dbafd0d88ca2056d8772812aafbbb1f"
+    },
+    {
+      "path": "scripts/run_experiments.py",
+      "bytes": 20638,
+      "sha256": "3ed86ff054f981dd9914ab6965c4d98575e8b4c41dcf859228845957a4dac5d7"
+    },
+    {
+      "path": "scripts/run_xinchen_baseline.py",
+      "bytes": 13503,
+      "sha256": "3152a73aae9f91072e76d3666bee9d5f10fc8d2eae20766341c0c52358de00af"
+    },
+    {
+      "path": "scripts/validate_xinchen_baseline.py",
+      "bytes": 16922,
+      "sha256": "1f8a3cd1d3e5d79360f15000de72c9c9ab3d14fff283efc32225066086371bc8"
+    },
+    {
+      "path": "tests/test_cleaning.py",
+      "bytes": 1277,
+      "sha256": "c7effb6c0bebfdafa464a2779140d4537e1df36070f07a5d47d0c57bf1d66f0a"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "bytes": 3602,
+      "sha256": "1dd555b3b79f0c02a3348eb9603cd09aba849d9874e0fbb5f4e84a5aae1a1b46"
+    }
+  ]
+}

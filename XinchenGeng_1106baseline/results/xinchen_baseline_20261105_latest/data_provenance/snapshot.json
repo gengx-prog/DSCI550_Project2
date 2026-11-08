@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "owner": "Xinchen Geng",
+  "data_version": "v6.0",
+  "started_utc": "2026-11-06T01:23:50.446321+00:00",
+  "timezone": "America/Los_Angeles",
+  "run_date_local": "2026-11-05",
+  "requested_round": 1392,
+  "round": 1392,
+  "source_root": "G:\\DSCI-550\\Project2",
+  "source_copy_sha256": {
+    "scripts/download_data.py": "54941a9a4dfc6f3e4161d544253d703514503178213485f8025b330034b95e8a",
+    "scripts/prepare_data.py": "2293119136e0114fa35e0e04f84501329dbafd0d88ca2056d8772812aafbbb1f",
+    "scripts/run_experiments.py": "3ed86ff054f981dd9914ab6965c4d98575e8b4c41dcf859228845957a4dac5d7",
+    "scripts/run_xinchen_baseline.py": "3152a73aae9f91072e76d3666bee9d5f10fc8d2eae20766341c0c52358de00af",
+    "scripts/validate_xinchen_baseline.py": "9a84b30dba56cbd32105ad2cd0ea510bf5ba2ac4f7b661eea3b835287c472529",
+    "scripts/plot_xinchen_baseline.py": "6632d2abfba0fc73a22ca755f0b1863de68fc29c80d3515cc226115a707d76b7",
+    "scripts/summarize_xinchen_baseline.py": "16b4c272cb38795de206054f7d89a897483977988115d9418cbe0d17b32a76df",
+    "references/official_sources.json": "b5726c935be4b5bf3a1f99c5715d19a3caac1110f743114d4e59e68c1fe41d20",
+    "references/v6_example_model.ipynb": "b826a0c7b964a8158483a6666c793de8cc94c2e408bd429e5e3b644574bad598",
+    "references/NUMERAI_EXAMPLE_SCRIPTS_LICENSE.txt": "0f08863fb24c61a041ffe85f28711afa78d1b4438a55acaf36b99056d027d29f",
+    "requirements.txt": "dbd4acd1138927adfe3a85741e50e5d2127e14666ca70c59c2649e5b4fe4769a",
+    "DSCI550_Numerai_Project2_Proposal.pdf": "35ff1f3094cc73a5c1bd4a86101115f97c8ce5d728995c44f0124112b646ebd5"
+  },
+  "refresh_script_sha256": "b4e48b2830d2b00b3838a26ed72b5246e3985bd51aee649a0a588d66806afff3",
+  "download_policy": "Complete remote objects pinned to one Numerai round; no cached files, subsets, or hardlinks.",
+  "scope": "Download and source snapshot only; preparation and training are separate.",
+  "official_sources": [
+    "https://docs.numer.ai/numerai-tournament/data",
+    "https://numerapi.readthedocs.io/",
+    "https://github.com/numerai/numerapi/blob/master/numerapi/base_api.py"
+  ],
+  "dataset_urls_resolved_utc": "2026-11-06T01:23:53.299475+00:00",
+  "completed_utc": "2026-11-06T01:30:55.210952+00:00",
+  "raw_manifest_sha256": "e9312a632b17519efb27434fb8dad45f17aad69b31489ff628bd35d8558c3233"
+}
