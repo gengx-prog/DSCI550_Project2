@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "validated_at_utc": "2026-11-08T04:19:56.078938+00:00",
+  "round": 1394,
+  "data_version": "v6.0",
+  "generation_sha256": "51a540590b7e33680e1f6301d9ce516486f9582db1b9db37ca9bcfaca9cd5fa1",
+  "artifact_sha256": {
+    "model_sha256": "17719df416662680e7c01aca30ab210265feb1d1ad9ded94b272eb0ac4f3db56",
+    "protocol_sha256": "c93705ab2d16315beef381afb3f09692d2b0f5d58a654565c54d3bf066910e1c",
+    "baseline_run_sha256": "78c370a3230b23a2aef396d8cd409f00f12581077375a05218a7daa9e0db0572",
+    "feature_metadata_sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+    "live_parquet_sha256": "a13b3aec53409aace662b5ed6a97794b741ee6b32cc91cc0f82dcab1962dd9bc",
+    "download_manifest_sha256": "04afd581cecd99daaadb2958cdf4176805eca9dd656b70cfaa76d72a544c45b1"
+  },
+  "csv_file": "XinchenGeng_baseline_live_round1394.csv",
+  "csv_sha256": "06eb8d61873a9ea88751d108e4f003b8fa4a2ae8c6eb3a28513ac24d0e797510",
+  "exact_live_ticker_coverage": true,
+  "feature_count": 100,
+  "allowed_missing_feature_values": 0,
+  "full_model_and_rank_check": {
+    "rows": 7121,
+    "maximum_absolute_error": 2.220446049250313e-16,
+    "absolute_tolerance": 1e-14,
+    "minimum_prediction": 0.0001404297149276,
+    "maximum_prediction": 1.0,
+    "independent_transform": "scipy.stats.rankdata(method='average') / number of live rows"
+  },
+  "current_round_queried": true,
+  "current_round_at_validation": 1394,
+  "scope": "Independent saved-model live CSV validation only; no Numerai account submission."
+}

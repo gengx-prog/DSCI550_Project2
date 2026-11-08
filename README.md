@@ -1,5 +1,16 @@
 # DSCI550_Project2
 
+## Baseline live predictions - round 1394
+
+Generated November 7, 2026 (America/Los_Angeles), using the saved fixed baseline. The CSV contains 7,121 predictions for Numerai v6.0 round 1394 and passed full independent model, ticker-coverage and ranking checks.
+
+- [Prediction CSV](XinchenGeng_baseline_live_round1394/XinchenGeng_baseline_live_round1394.csv)
+- [Complete handoff ZIP](downloads/XinchenGeng_baseline_live_round1394_handoff.zip)
+- [Model, generation/validation scripts and instructions](XinchenGeng_baseline_live_round1394/README.md)
+- [Independent validation record](XinchenGeng_baseline_live_round1394/validation.json)
+
+The files are prepared for the submission owner; no Numerai account submission was performed. This CSV is specific to round 1394. Check the current round before submitting, and regenerate for a new round using the included script.
+
 ## Xinchen Geng baseline archives
 
 | Archive | Source version | Scored dates |

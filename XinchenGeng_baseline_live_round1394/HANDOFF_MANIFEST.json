@@ -1,0 +1,81 @@
+{
+  "kind": "Xinchen Geng current-round baseline live handoff",
+  "round": 1394,
+  "data_version": "v6.0",
+  "prediction_rows": 7121,
+  "csv_file": "XinchenGeng_baseline_live_round1394.csv",
+  "independent_validation": "passed",
+  "account_submission_performed": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 88,
+      "sha256": "34076d02f52dfd035afdaa4fb9e1f07daa5497a2321d3bcf9b56b3f890e82d90"
+    },
+    {
+      "path": "audit_data/live.parquet",
+      "bytes": 4422232,
+      "sha256": "a13b3aec53409aace662b5ed6a97794b741ee6b32cc91cc0f82dcab1962dd9bc"
+    },
+    {
+      "path": "B0_small_main.txt",
+      "bytes": 958583,
+      "sha256": "17719df416662680e7c01aca30ab210265feb1d1ad9ded94b272eb0ac4f3db56"
+    },
+    {
+      "path": "baseline_protocol.json",
+      "bytes": 6096,
+      "sha256": "c93705ab2d16315beef381afb3f09692d2b0f5d58a654565c54d3bf066910e1c"
+    },
+    {
+      "path": "baseline_run.json",
+      "bytes": 7697,
+      "sha256": "78c370a3230b23a2aef396d8cd409f00f12581077375a05218a7daa9e0db0572"
+    },
+    {
+      "path": "features.json",
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634"
+    },
+    {
+      "path": "generate_xinchen_live.py",
+      "bytes": 16465,
+      "sha256": "adb494e14ea0a8cb9e678066b23ccb976b6c1994ec0bd4f265200748af5c1e23"
+    },
+    {
+      "path": "live_data_manifest.json",
+      "bytes": 1760,
+      "sha256": "04afd581cecd99daaadb2958cdf4176805eca9dd656b70cfaa76d72a544c45b1"
+    },
+    {
+      "path": "live_generation.json",
+      "bytes": 5450,
+      "sha256": "51a540590b7e33680e1f6301d9ce516486f9582db1b9db37ca9bcfaca9cd5fa1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4151,
+      "sha256": "ceb104069b0f8b0ddfb85f4785d6dab4f41fa84aa8f2bbcdcf3cd367397f8d45"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 201,
+      "sha256": "dbd4acd1138927adfe3a85741e50e5d2127e14666ca70c59c2649e5b4fe4769a"
+    },
+    {
+      "path": "validate_xinchen_live.py",
+      "bytes": 13469,
+      "sha256": "5100fde9cd654f6cc7e73b1902ec3a5035082b560f50b5fe1017141c731fe430"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1532,
+      "sha256": "f018a5b73b4f04387c19e645dacf8f861b72faba6e8fd858ab5ee84e09220f87"
+    },
+    {
+      "path": "XinchenGeng_baseline_live_round1394.csv",
+      "bytes": 198069,
+      "sha256": "06eb8d61873a9ea88751d108e4f003b8fa4a2ae8c6eb3a28513ac24d0e797510"
+    }
+  ]
+}
