@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "data_version": "v6.0",
+  "round": 1395,
+  "tournament": 8,
+  "round_info": {
+    "number": 1395,
+    "tournament": 8,
+    "target": "target_jupiter_60",
+    "dataDatestamp": 20261109,
+    "openTime": "2026-11-10T12:56:18+00:00",
+    "closeTime": "2026-11-11T13:12:22+00:00",
+    "closeStakingTime": "2026-11-10T14:01:13+00:00"
+  },
+  "download_policy": "Complete public objects; explicit same-round queries; no filtered downloads.",
+  "files": [
+    {
+      "dataset": "v6.0/features.json",
+      "filename": "features.json",
+      "round": 1395,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261109/v6.0/features.json",
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+      "rows": null,
+      "downloaded_at_utc": "2026-11-12T10:01:18.354999+00:00",
+      "remote_metadata": {
+        "Last-Modified": "Tue, 10 Nov 2026 12:49:52 GMT",
+        "ETag": "\"05d9b2c786a2a2d336ed43d5b4956355\"",
+        "Content-Length": "47870"
+      }
+    },
+    {
+      "dataset": "v6.0/live.parquet",
+      "filename": "live.parquet",
+      "round": 1395,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261109/v6.0/live.parquet",
+      "bytes": 4419766,
+      "sha256": "fe6f9ef87fc2d340a7183485cd80d310273ef4d9249dff46c044fa6e1dcf7b51",
+      "rows": 7118,
+      "downloaded_at_utc": "2026-11-12T10:01:20.516717+00:00",
+      "remote_metadata": {
+        "Last-Modified": "Tue, 10 Nov 2026 12:49:52 GMT",
+        "ETag": "\"e6641987467124e970229d96893235be\"",
+        "Content-Length": "4419766"
+      }
+    }
+  ],
+  "completed_at_utc": "2026-11-12T10:01:20.522410+00:00"
+}

@@ -1,5 +1,13 @@
 # DSCI550_Project2
 
+## Baseline predictions for round 1395
+
+The requested round 1395 CSV contains **7,118** predictions from the unchanged baseline and passed full independent model, ticker-coverage and ranking checks. Round 1395 had already closed when generated; the API reported round 1396. No Numerai account submission was performed.
+
+- [Prediction CSV](XinchenGeng_baseline_live_round1395/XinchenGeng_baseline_live_round1395.csv)
+- [Round status and audit records](XinchenGeng_baseline_live_round1395/README.md)
+- [Independent validation](XinchenGeng_baseline_live_round1395/validation.json)
+
 ## Baseline live predictions - round 1394
 
 Generated November 7, 2026 (America/Los_Angeles), using the saved fixed baseline. The CSV contains 7,121 predictions for Numerai v6.0 round 1394 and passed full independent model, ticker-coverage and ranking checks.
