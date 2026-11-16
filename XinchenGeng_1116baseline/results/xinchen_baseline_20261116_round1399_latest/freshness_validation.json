@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "validated_at_utc": "2026-11-16T22:46:39.037329+00:00",
+  "round": 1399,
+  "current_round_after_validation": 1399,
+  "available_versions_after_validation": [
+    "v6.0"
+  ],
+  "round_still_current_after_validation": true,
+  "raw_validation_max_date": "2026-11-06",
+  "mature_validation_max_date": "2026-08-14",
+  "raw_mature_coverage": {
+    "raw_rows": 2739142,
+    "eligible_mature_rows": 2653645,
+    "eligible_mature_dates": 398,
+    "raw_max_date": "2026-11-06",
+    "mature_max_date": "2026-08-14"
+  },
+  "raw_files_verified": [
+    {
+      "dataset": "v6.0/features.json",
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634"
+    },
+    {
+      "dataset": "v6.0/train.parquet",
+      "bytes": 2176263434,
+      "sha256": "ac81951d1ff5925475e015d83d1252483e9c84d60f6963b2fdae7a197210bca0"
+    },
+    {
+      "dataset": "v6.0/validation.parquet",
+      "bytes": 1407205926,
+      "sha256": "39f7d75445e07a3597eb2b0d206b96d420fcd64255aee83f9dc94dd6f1913bd7"
+    },
+    {
+      "dataset": "v6.0/validation_example_preds.parquet",
+      "bytes": 17390372,
+      "sha256": "f9dcc4568c73fa9bfcea61798f3c74833991ae5fd1faa589da6295ce0a48c314"
+    },
+    {
+      "dataset": "v6.0/validation_neutralizer.parquet",
+      "bytes": 4686844530,
+      "sha256": "e5770fc201bd2f83ba573ef7753e712b3ad315058d19c9b44aa9920067f8966e"
+    }
+  ],
+  "downloaded_bytes": 8287752132,
+  "previous_raw_manifest_sha256": "e3799eb1963fd737f597e747b714dd56470a1329bbee0103f6b7fc0314e54dc8",
+  "raw_dataset_comparison": {
+    "v6.0/features.json": {
+      "previous": {
+        "bytes": 47870,
+        "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634"
+      },
+      "current": {
+        "bytes": 47870,
+        "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634"
+      },
+      "identical": true
+    },
+    "v6.0/train.parquet": {
+      "previous": {
+        "bytes": 2176263434,
+        "sha256": "ac81951d1ff5925475e015d83d1252483e9c84d60f6963b2fdae7a197210bca0"
+      },
+      "current": {
+        "bytes": 2176263434,
+        "sha256": "ac81951d1ff5925475e015d83d1252483e9c84d60f6963b2fdae7a197210bca0"
+      },
+      "identical": true
+    },
+    "v6.0/validation.parquet": {
+      "previous": {
+        "bytes": 1403560945,
+        "sha256": "bc5209e931bca08c2c673315a48f13a428f299069b96b6e59afd69d2f2434174"
+      },
+      "current": {
+        "bytes": 1407205926,
+        "sha256": "39f7d75445e07a3597eb2b0d206b96d420fcd64255aee83f9dc94dd6f1913bd7"
+      },
+      "identical": false
+    },
+    "v6.0/validation_example_preds.parquet": {
+      "previous": {
+        "bytes": 17349207,
+        "sha256": "85850e4f1fa3ce951bd381bd1218d426a58177b0ba6a816d68915205d9540e34"
+      },
+      "current": {
+        "bytes": 17390372,
+        "sha256": "f9dcc4568c73fa9bfcea61798f3c74833991ae5fd1faa589da6295ce0a48c314"
+      },
+      "identical": false
+    },
+    "v6.0/validation_neutralizer.parquet": {
+      "previous": {
+        "bytes": 4674637606,
+        "sha256": "4cda2177a845b4afaad9a2860b6906e67e74327285667b54fb90a1b8627114d6"
+      },
+      "current": {
+        "bytes": 4686844530,
+        "sha256": "e5770fc201bd2f83ba573ef7753e712b3ad315058d19c9b44aa9920067f8966e"
+      },
+      "identical": false
+    }
+  },
+  "source_copy_hashes_verified": {
+    "scripts/download_data.py": "54941a9a4dfc6f3e4161d544253d703514503178213485f8025b330034b95e8a",
+    "scripts/prepare_data.py": "2293119136e0114fa35e0e04f84501329dbafd0d88ca2056d8772812aafbbb1f",
+    "scripts/run_experiments.py": "3ed86ff054f981dd9914ab6965c4d98575e8b4c41dcf859228845957a4dac5d7",
+    "scripts/run_xinchen_baseline.py": "3152a73aae9f91072e76d3666bee9d5f10fc8d2eae20766341c0c52358de00af",
+    "scripts/validate_xinchen_baseline.py": "9a84b30dba56cbd32105ad2cd0ea510bf5ba2ac4f7b661eea3b835287c472529",
+    "scripts/plot_xinchen_baseline.py": "6632d2abfba0fc73a22ca755f0b1863de68fc29c80d3515cc226115a707d76b7",
+    "scripts/summarize_xinchen_baseline.py": "16b4c272cb38795de206054f7d89a897483977988115d9418cbe0d17b32a76df",
+    "references/official_sources.json": "b5726c935be4b5bf3a1f99c5715d19a3caac1110f743114d4e59e68c1fe41d20",
+    "references/v6_example_model.ipynb": "b826a0c7b964a8158483a6666c793de8cc94c2e408bd429e5e3b644574bad598",
+    "references/NUMERAI_EXAMPLE_SCRIPTS_LICENSE.txt": "0f08863fb24c61a041ffe85f28711afa78d1b4438a55acaf36b99056d027d29f",
+    "requirements.txt": "dbd4acd1138927adfe3a85741e50e5d2127e14666ca70c59c2649e5b4fe4769a",
+    "DSCI550_Numerai_Project2_Proposal.pdf": "35ff1f3094cc73a5c1bd4a86101115f97c8ce5d728995c44f0124112b646ebd5"
+  },
+  "protocol_equivalence": {
+    "fields": [
+      "features",
+      "params",
+      "seed",
+      "max_train_rows",
+      "target",
+      "data_version",
+      "embargo_weekdays"
+    ],
+    "identical": true
+  },
+  "training_sample": {
+    "previous_rows": 200000,
+    "current_rows": 200000,
+    "keys_sha256_identical": true
+  },
+  "model_sha256_identical": true,
+  "common_prediction_rows": 2479692,
+  "new_prediction_rows": 7119,
+  "removed_prediction_rows": 0,
+  "common_prediction_changes": {
+    "target": {
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0
+    },
+    "prediction": {
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "new_scored_dates": [
+    "2026-08-14"
+  ],
+  "revised_scored_dates": [],
+  "removed_scored_dates": [],
+  "affected_date_checks": [
+    {
+      "split": "holdout",
+      "date": "2026-08-14",
+      "reasons": [
+        "added_scored_date"
+      ],
+      "rows": 7119,
+      "saved_model_maximum_absolute_error": 0.0,
+      "independent_ncorr": 0.009936224441155958,
+      "independent_ncorr_absolute_error": 5.724587470723463e-17,
+      "neutralizer_columns": 300
+    }
+  ],
+  "affected_date_check_scope": "Every currently scored date added or revised by prediction keys, targets, predictions, or CORR/NCORR; none when the list is empty.",
+  "independent_summary_checks": {
+    "annual_rows": 8,
+    "negative_score_periods": 30,
+    "method": "Separate chronological loops and year filters; actual partial-year boundaries retained."
+  },
+  "snapshot_sha256": "f7615e555f0d2d7d636b875a838514bde8d1a3bcde4014885d1f23050e1437eb",
+  "raw_manifest_sha256": "7869462256e016f44d2e8ab4b74f95ed888b0cb6545e151e41972c9cd7105084",
+  "source_files_sha256": {
+    "run.json": "3e36eec5c4300515108b3fde54528af579554996e7f929812cde8b6476f1832d",
+    "protocol.json": "7d70e5c4c64244be9152d19214201fb5986dbf77df9f0f85dab189f3b5a95750",
+    "validation.json": "2a6ba7f9bcb61b5ad5a161a2d71d0a2eed7e317b68ff14ea751319768eae6470",
+    "per_date_metrics.csv": "a75b2490bfb58679691fa1d6b74f7a7a5f6b5934ec823e408f27256c2ee55a6e",
+    "metrics.csv": "221f904acc1bec8dabc002753e43ec60ad5d9bc4d63d673642e97135f6175ca4",
+    "data_update_comparison.json": "f568e51d8a753e772072ce7e03f6d094639aab30d71cc6c390967aede783bef5",
+    "new_dates_metrics.csv": "ea8fe60561a7dfb9fdc07bbb4e986e2aa6eb9e42182bd0a171269849242815c6",
+    "annual_corr.csv": "75c317fb12e60807f41d6d9c2f6c490c156e8956bf03afb4d985398651db0630",
+    "failure_periods.csv": "c6f3ffeb0e1fdac835b069bec8095142ce8e6e5e0a31385d46e49ae61e72a97b"
+  },
+  "audit_script_sha256": "0f877d8b35844c63982326939aa41b2277b4e35cccef30f62f39e696debf9338",
+  "scope": "Independent raw completeness/maturity, frozen-protocol equivalence, affected-date model/NCORR, and annual/failure summary audit. Historical development evidence; no unseen-test or live-performance claim."
+}

@@ -1,0 +1,32 @@
+Baseline on Refreshed Official Data
+DSCI 550 Project 2 | Xinchen Geng | 2026-11-16 | Round 1399
+
+PROGRESS
+The fixed LightGBM baseline was retrained and evaluated on the official v6.0 round 1399 snapshot downloaded on 2026-11-16 (America/Los_Angeles). Historical holdout mean CORR is 0.009576 across 189 dates; mean NCORR is 0.010132. The historical holdout was viewed in earlier experiments. These are reproducible development results and do not establish performance on a fresh unseen test set or in live rounds.
+
+FIXED BASELINE AND VALIDATION
+B0_small_main uses 100 small numeric features and target_jupiter_60. A fixed 200,000-row sample (seed 7) is drawn from 4,329,443 eligible training rows dated 2003-01-03 to 2018-12-28. LightGBM uses 300 trees, learning rate 0.05, depth 5, 31 leaves and column sampling 0.1. The protocol matches the previous run; no validation-based tuning, early stopping, selection or refitting is performed. Missing target rows are excluded.
+
+CHRONOLOGICAL EVALUATION
+The configured embargo is 65 Monday-Friday weekdays. Retained train-to-tuning and tuning-to-holdout boundaries are separated by 70 and 70 weekdays, respectively. CORR is the proposal's primary metric; NCORR is reported separately. Each observation date has equal weight and standard deviation uses ddof=0. The period named tuning is not used to tune this fixed baseline.
+
+Period and dates | Dates | Rows | CORR mean | CORR std | NCORR mean
+Tuning period: 2019-04-05 to 2022-09-30 | 183 | 1,211,007 | 0.012133 | 0.011770 | 0.013674
+Historical holdout*: 2023-01-06 to 2026-08-14 | 189 | 1,275,804 | 0.009576 | 0.011736 | 0.010132
+* Historical holdout includes previously observed dates.
+
+CHANGES FROM THE PREVIOUS DATA SNAPSHOT
+Compared with xinchen_baseline_20261107_round1394_latest, the refresh adds 1 scored date (2026-08-14) and 7,119 prediction rows; 0 rows and 0 dates are removed. Among 2,479,692 common rows, 0 targets and 0 predictions changed. Raw validation dates extend to 2026-11-06; mature eligible labels end on 2026-08-14. Newly available dates alone do not establish stable improvement. The saved model hash is unchanged.
+
+VERIFICATION AND RUNTIME
+Independent validation passed for all 372 CORR dates and 2,486,811 prediction rows (maximum CORR error 9.97e-17), including training-sample, boundary and source-hash checks. Saved-model predictions received an independent full-date check. NCORR received an independent full-date spot check. The extra refresh audit checked 1 added or revised full date. Training and scoring took 48.45 seconds, including input hashing; fitting took 1.34 seconds, with peak process memory 4.17 GiB. Download and preparation are excluded. The post-run API check returned round 1399; this snapshot is pinned to 1399.
+
+FAILURE PERIODS AND LIMITS
+The worst consecutive negative-CORR period in the historical holdout spans 2025-10-10 to 2025-12-19: 11 adjacent observed dates, with mean CORR -0.021842. The 2025 mean CORR is 0.006876 (2025-01-03 to 2025-12-26). The 2026 mean CORR is 0.005108 (2026-01-02 to 2026-08-14). CORR and cumulative CORR are score diagnostics, not investment returns.
+
+NEXT STEPS
+Preserve this fixed baseline and protocol for subsequent comparisons. Evaluate candidate models on identical dates using paired score differences and examine their behavior during negative-score periods. Coordinate the live-submission handoff separately; live submission receipts and live MMC/NMMC results are not documented by this historical evaluation.
+
+EVIDENCE AND REPRODUCTION
+Evidence is in results/xinchen_baseline_20261116_round1399_latest/: run.json, protocol.json, metrics.csv, per_date_metrics.csv, validation.json, freshness_validation.json, data_update_comparison.json, annual_corr.csv and failure_periods.csv. Evidence hashes are listed in report_sources.json. To reproduce, create a fresh snapshot pinned to round 1399 with refresh_xinchen_snapshot.py, then run the copied prepare, baseline, validate, plot and summary scripts with one fresh absolute result directory. Full validation requires the matching raw data, trained model and row-level predictions generated locally.
+

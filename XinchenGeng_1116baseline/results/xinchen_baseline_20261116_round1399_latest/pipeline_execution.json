@@ -1,0 +1,146 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-11-16T22:46:48.013748+00:00",
+  "stages": [
+    {
+      "stage": "data preparation",
+      "started_utc": "2026-11-16T22:43:41.548600+00:00",
+      "seconds": 95.1362414000032,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\scripts\\prepare_data.py"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_01.log",
+      "status": "passed"
+    },
+    {
+      "stage": "frozen baseline training and scoring",
+      "started_utc": "2026-11-16T22:45:16.686108+00:00",
+      "seconds": 49.73773369999981,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\scripts\\run_xinchen_baseline.py",
+        "--root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest",
+        "--output",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_02.log",
+      "status": "passed"
+    },
+    {
+      "stage": "independent baseline validation",
+      "started_utc": "2026-11-16T22:46:06.426426+00:00",
+      "seconds": 10.168092400002934,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\scripts\\validate_xinchen_baseline.py",
+        "--root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest",
+        "--output",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_03.log",
+      "status": "passed"
+    },
+    {
+      "stage": "CORR figures",
+      "started_utc": "2026-11-16T22:46:16.603585+00:00",
+      "seconds": 1.0631894999969518,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\scripts\\plot_xinchen_baseline.py",
+        "--output",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_04.log",
+      "status": "passed"
+    },
+    {
+      "stage": "annual and failure summaries",
+      "started_utc": "2026-11-16T22:46:17.668639+00:00",
+      "seconds": 0.4793117000008351,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\scripts\\summarize_xinchen_baseline.py",
+        "--output",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_05.log",
+      "status": "passed"
+    },
+    {
+      "stage": "previous and current comparison",
+      "started_utc": "2026-11-16T22:46:18.149832+00:00",
+      "seconds": 6.258284099996672,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\scripts\\compare_xinchen_runs.py",
+        "--previous",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261107_round1394_latest",
+        "--current",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest",
+        "--previous-root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261107_round1394_latest",
+        "--current-root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_06.log",
+      "status": "passed"
+    },
+    {
+      "stage": "complete freshness audit",
+      "started_utc": "2026-11-16T22:46:24.409970+00:00",
+      "seconds": 14.944065900002897,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\scripts\\validate_latest_baseline_refresh.py",
+        "--previous-root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261107_round1394_latest",
+        "--previous",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261107_round1394_latest",
+        "--root",
+        "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest",
+        "--output",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_07.log",
+      "status": "passed"
+    },
+    {
+      "stage": "round1399 live predictions",
+      "started_utc": "2026-11-16T22:46:39.356065+00:00",
+      "seconds": 6.635189000000537,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\scripts\\generate_xinchen_live.py",
+        "--baseline",
+        "G:\\DSCI-550\\Project2\\results\\xinchen_baseline_20261116_round1399_latest",
+        "--output",
+        "G:\\DSCI-550\\Project2\\output\\baseline_live_round1399",
+        "--data-dir",
+        "G:\\DSCI-550\\Project2\\data\\live\\v6.0\\round1399",
+        "--round",
+        "1399"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_08.log",
+      "status": "passed"
+    },
+    {
+      "stage": "complete live model and rank audit",
+      "started_utc": "2026-11-16T22:46:45.993413+00:00",
+      "seconds": 2.018323899996176,
+      "command": [
+        "G:\\DSCI-550\\Project2\\.venv\\Scripts\\python.exe",
+        "G:\\DSCI-550\\Project2\\scripts\\validate_xinchen_live.py",
+        "--bundle",
+        "G:\\DSCI-550\\Project2\\output\\baseline_live_round1399",
+        "--live",
+        "G:\\DSCI-550\\Project2\\data\\live\\v6.0\\round1399\\live.parquet",
+        "--check-current-round"
+      ],
+      "log": "G:\\DSCI-550\\Project2\\tmp\\round1399_09.log",
+      "status": "passed"
+    }
+  ]
+}

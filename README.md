@@ -1,5 +1,20 @@
 # DSCI550_Project2
 
+## November 16, 2026 baseline update
+
+The fixed `B0_small_main` baseline was retrained and independently audited on
+official v6.0 round **1399** data with its original parameters. The live CSV has
+**7,106** predictions and passed a full independent saved-model,
+rank and ticker-coverage check. The API reported round 1399 during generation and
+validation. The recorded general submission deadline is **2026-11-17 04:00 PST**;
+check the current API before submitting. No Numerai account submission was performed.
+
+- [Round 1399 prediction CSV](XinchenGeng_baseline_live_round1399/XinchenGeng_baseline_live_round1399.csv)
+- [Live model, audit and reproduction](XinchenGeng_baseline_live_round1399/README.md)
+- [Complete live handoff ZIP](downloads/XinchenGeng_baseline_live_round1399_handoff.zip)
+- [November 16 historical baseline and report](XinchenGeng_1116baseline/README.md)
+- [Historical baseline ZIP](downloads/XinchenGeng_1116baseline.zip)
+
 ## Baseline predictions for round 1395
 
 The requested round 1395 CSV contains **7,118** predictions from the unchanged baseline and passed full independent model, ticker-coverage and ranking checks. Round 1395 had already closed when generated; the API reported round 1396. No Numerai account submission was performed.

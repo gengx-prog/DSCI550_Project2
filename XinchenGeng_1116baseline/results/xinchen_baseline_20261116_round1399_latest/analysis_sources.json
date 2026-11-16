@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "generated_at_utc": "2026-11-16T22:46:18.090553+00:00",
+  "run_date_local": "2026-11-16",
+  "timezone": "America/Los_Angeles",
+  "model": "B0_small_main",
+  "metric": "CORR",
+  "source_files_sha256": {
+    "metrics.csv": "221f904acc1bec8dabc002753e43ec60ad5d9bc4d63d673642e97135f6175ca4",
+    "per_date_metrics.csv": "a75b2490bfb58679691fa1d6b74f7a7a5f6b5934ec823e408f27256c2ee55a6e",
+    "run.json": "3e36eec5c4300515108b3fde54528af579554996e7f929812cde8b6476f1832d",
+    "validation.json": "2a6ba7f9bcb61b5ad5a161a2d71d0a2eed7e317b68ff14ea751319768eae6470"
+  },
+  "summary_script_sha256": "16b4c272cb38795de206054f7d89a897483977988115d9418cbe0d17b32a76df",
+  "output_files_sha256": {
+    "annual_corr.csv": "75c317fb12e60807f41d6d9c2f6c490c156e8956bf03afb4d985398651db0630",
+    "failure_periods.csv": "c6f3ffeb0e1fdac835b069bec8095142ce8e6e5e0a31385d46e49ae61e72a97b"
+  },
+  "definitions": {
+    "annual": "Equal weight per observed date, grouped by split and calendar year; std ddof=0. Actual date_min/date_max retain partial-year boundaries.",
+    "failure_period": "Maximal sequence of adjacent observed dates with CORR < 0 within a split. Zero or positive CORR ends a sequence; dates need not be consecutive calendar days.",
+    "total_corr": "Additive sum of CORR scores; not an investment return or portfolio drawdown."
+  },
+  "historical_holdout_previously_observed": true,
+  "annual_rows": 8,
+  "failure_periods": 30,
+  "proposal_reference": {
+    "path": "G:\\DSCI-550\\Project2\\snapshots\\xinchen_20261116_round1399_latest\\DSCI550_Numerai_Project2_Proposal.pdf",
+    "sha256": "35ff1f3094cc73a5c1bd4a86101115f97c8ce5d728995c44f0124112b646ebd5"
+  }
+}

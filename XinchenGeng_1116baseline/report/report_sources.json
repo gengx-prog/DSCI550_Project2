@@ -1,0 +1,27 @@
+{
+  "report_date_local": "2026-11-16",
+  "timezone": "America/Los_Angeles",
+  "round": 1399,
+  "result_batch": "xinchen_baseline_20261116_round1399_latest",
+  "results_sha256": {
+    "run.json": "3e36eec5c4300515108b3fde54528af579554996e7f929812cde8b6476f1832d",
+    "protocol.json": "7d70e5c4c64244be9152d19214201fb5986dbf77df9f0f85dab189f3b5a95750",
+    "metrics.csv": "221f904acc1bec8dabc002753e43ec60ad5d9bc4d63d673642e97135f6175ca4",
+    "per_date_metrics.csv": "a75b2490bfb58679691fa1d6b74f7a7a5f6b5934ec823e408f27256c2ee55a6e",
+    "validation.json": "2a6ba7f9bcb61b5ad5a161a2d71d0a2eed7e317b68ff14ea751319768eae6470",
+    "freshness_validation.json": "206df6f9e7aa0444307624db5334c03239d16a7a38a77467e5ca263e44b65453",
+    "data_update_comparison.json": "f568e51d8a753e772072ce7e03f6d094639aab30d71cc6c390967aede783bef5",
+    "annual_corr.csv": "75c317fb12e60807f41d6d9c2f6c490c156e8956bf03afb4d985398651db0630",
+    "failure_periods.csv": "c6f3ffeb0e1fdac835b069bec8095142ce8e6e5e0a31385d46e49ae61e72a97b"
+  },
+  "snapshot_json_sha256": "f7615e555f0d2d7d636b875a838514bde8d1a3bcde4014885d1f23050e1437eb",
+  "raw_manifest_sha256": "7869462256e016f44d2e8ab4b74f95ed888b0cb6545e151e41972c9cd7105084",
+  "previous_protocol_sha256": "1d15e1728e1e0453dbdc546854e394851a41f609ee2affdbeed53c385eeb6118",
+  "figure_sha256": "07e46c096b903d3657644a25a9084800a219637a6eb4a199b0ce2a2ccb2b1fe8",
+  "report_builder_sha256": "ee8087d048fa9836d6a50a3476bc9bd8cd8ed1d7bb7ad6914216322c448d28ef",
+  "interpretation": "Historical reproducibility and development evidence; no new unseen-test or live-performance claim.",
+  "output_sha256": {
+    "DSCI550_Baseline_20261116_Round1399.pdf": "5568be6f1856687c580d6de87489aa5603f37967ecb11adad6595706ca2daf6f",
+    "DSCI550_Baseline_20261116_Round1399.txt": "abd3715162e386c36d616598af810cea669eca571403ba3cfc8580ed80e080db"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "version": "v6.0",
+  "round": 1399,
+  "available_files": [
+    "v6.0/features.json",
+    "v6.0/live.parquet",
+    "v6.0/live_benchmark_models.parquet",
+    "v6.0/live_example_preds.csv",
+    "v6.0/live_example_preds.parquet",
+    "v6.0/live_neutralizer.parquet",
+    "v6.0/train.parquet",
+    "v6.0/train_benchmark_models.parquet",
+    "v6.0/train_neutralizer.parquet",
+    "v6.0/validation.parquet",
+    "v6.0/validation_benchmark_models.parquet",
+    "v6.0/validation_example_preds.csv",
+    "v6.0/validation_example_preds.parquet",
+    "v6.0/validation_neutralizer.parquet"
+  ],
+  "files": [
+    {
+      "dataset": "v6.0/features.json",
+      "path": "data\\raw\\v6.0\\features.json",
+      "round": 1399,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261113/v6.0/features.json",
+      "remote_metadata": {
+        "LastModified": "Sat, 14 Nov 2026 13:08:33 GMT",
+        "ETag": "\"05d9b2c786a2a2d336ed43d5b4956355\"",
+        "ContentLength": 47870,
+        "x-amz-version-id": "PW_DskuToiFmt8.xBcqUqfW9.xlVXHZ5"
+      },
+      "bytes": 47870,
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+      "verified_at_utc": "2026-11-16T22:35:03.514185+00:00",
+      "status": "downloaded",
+      "seconds": 0.81
+    },
+    {
+      "dataset": "v6.0/train.parquet",
+      "path": "data\\raw\\v6.0\\train.parquet",
+      "round": 1399,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261113/v6.0/train.parquet",
+      "remote_metadata": {
+        "LastModified": "Sat, 14 Nov 2026 13:08:31 GMT",
+        "ETag": "\"8fd4aba8472b598f9c45c1b39684bdc1-260\"",
+        "ContentLength": 2176263434,
+        "x-amz-version-id": "njqVK_07e3DORUQja85fshleE6ar86jx"
+      },
+      "bytes": 2176263434,
+      "sha256": "ac81951d1ff5925475e015d83d1252483e9c84d60f6963b2fdae7a197210bca0",
+      "verified_at_utc": "2026-11-16T22:38:56.151959+00:00",
+      "status": "downloaded",
+      "seconds": 233.45
+    },
+    {
+      "dataset": "v6.0/validation.parquet",
+      "path": "data\\raw\\v6.0\\validation.parquet",
+      "round": 1399,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261113/v6.0/validation.parquet",
+      "remote_metadata": {
+        "LastModified": "Sat, 14 Nov 2026 13:08:31 GMT",
+        "ETag": "\"2e0e65156bb3f7230ca1798a2597fa8b-168\"",
+        "ContentLength": 1407205926,
+        "x-amz-version-id": "vFSdrWxWndb9o1XFqKFZbzuRR0efv1VJ"
+      },
+      "bytes": 1407205926,
+      "sha256": "39f7d75445e07a3597eb2b0d206b96d420fcd64255aee83f9dc94dd6f1913bd7",
+      "verified_at_utc": "2026-11-16T22:39:10.958671+00:00",
+      "status": "downloaded",
+      "seconds": 248.25
+    },
+    {
+      "dataset": "v6.0/validation_example_preds.parquet",
+      "path": "data\\raw\\v6.0\\validation_example_preds.parquet",
+      "round": 1399,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261113/v6.0/validation_example_preds.parquet",
+      "remote_metadata": {
+        "LastModified": "Sat, 14 Nov 2026 13:08:32 GMT",
+        "ETag": "\"d850cc0cfb36c900f9a9b68acd24a1d1-3\"",
+        "ContentLength": 17390372,
+        "x-amz-version-id": "haTLO4DuzEPSe8roEda774iHcapqRymN"
+      },
+      "bytes": 17390372,
+      "sha256": "f9dcc4568c73fa9bfcea61798f3c74833991ae5fd1faa589da6295ce0a48c314",
+      "verified_at_utc": "2026-11-16T22:38:59.939590+00:00",
+      "status": "downloaded",
+      "seconds": 3.78
+    },
+    {
+      "dataset": "v6.0/validation_neutralizer.parquet",
+      "path": "data\\raw\\v6.0\\validation_neutralizer.parquet",
+      "round": 1399,
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261113/v6.0/validation_neutralizer.parquet",
+      "remote_metadata": {
+        "LastModified": "Sat, 14 Nov 2026 13:08:36 GMT",
+        "ETag": "\"41054eb70e4d02d14f43028c9be8c966-559\"",
+        "ContentLength": 4686844530,
+        "x-amz-version-id": "7h0vZZTitRtZ7f0GzcrfxriOPICy5jku"
+      },
+      "bytes": 4686844530,
+      "sha256": "e5770fc201bd2f83ba573ef7753e712b3ad315058d19c9b44aa9920067f8966e",
+      "verified_at_utc": "2026-11-16T22:43:17.300665+00:00",
+      "status": "downloaded",
+      "seconds": 493.78
+    }
+  ],
+  "failures": [],
+  "completed_utc": "2026-11-16T22:43:17.331417+00:00"
+}
