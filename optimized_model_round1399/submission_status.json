@@ -1,0 +1,13 @@
+{
+  "status": "not_submitted",
+  "checked_at_utc": "2026-11-17T04:12:17.932298+00:00",
+  "round": 1399,
+  "csv": "output/optimized_live_round1399/Optimized_live_round1399.csv",
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791",
+  "target_screenshot_model": "ZEXUGAO",
+  "logged_in_model_identity_verified": false,
+  "account_submission_performed": false,
+  "scope": "GitHub publication and verified offline handoff; tournament upload has not yet been completed. A later successful upload requires a separate receipt.",
+  "pre_submission_validation": "tournament_upload/pre_submission_validation.json",
+  "pre_submission_validation_sha256": "82533a832c6291d5f8c9c6e687d6dc66d65f6ae5bc3db06613cf9c3f103069db"
+}

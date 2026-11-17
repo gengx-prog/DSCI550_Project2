@@ -1,0 +1,122 @@
+test_rejects_empty_ticker (test_cleaning.CleaningTests.test_rejects_empty_ticker) ... ok
+test_rejects_insufficient_embargo_before_io (test_cleaning.CleaningTests.test_rejects_insufficient_embargo_before_io) ... ok
+test_rejects_nat_string (test_cleaning.CleaningTests.test_rejects_nat_string) ... ok
+test_weekday_embargo_across_weekend (test_cleaning.CleaningTests.test_weekday_embargo_across_weekend) ... ok
+test_changed_model_file_rejected_before_loading (test_live_generation.BaselineIdentityTests.test_changed_model_file_rejected_before_loading) ... ok
+test_changed_target_or_version_is_rejected (test_live_generation.BaselineIdentityTests.test_changed_target_or_version_is_rejected) ... ok
+test_protocol_feature_order_mismatch_rejected_even_with_matching_hash (test_live_generation.BaselineIdentityTests.test_protocol_feature_order_mismatch_rejected_even_with_matching_hash) ... ok
+test_parquet_reader_is_closed_before_windows_rename (test_live_generation.DownloadLifetimeTests.test_parquet_reader_is_closed_before_windows_rename) ... ok
+test_boolean_live_features_are_not_treated_as_numeric_bins (test_live_generation.GenerationTests.test_boolean_live_features_are_not_treated_as_numeric_bins) ... ok
+test_closed_current_round_remains_rejected_by_default (test_live_generation.GenerationTests.test_closed_current_round_remains_rejected_by_default) ... ok
+test_closed_historical_generation_pins_requested_data_and_records_actual_current_round (test_live_generation.GenerationTests.test_closed_historical_generation_pins_requested_data_and_records_actual_current_round) ... Pinned round 1394; downloading v6.0 live features
+Downloaded features.json: 1,438 bytes
+Downloaded live.parquet: 60,206 bytes
+{"status": "complete", "round": 1394, "rows": 3, "csv": "C:\\Users\\xinch\\AppData\\Local\\Temp\\tmpckzohb1e\\handoff\\XinchenGeng_baseline_live_round1394.csv", "model_sha256": "f16d05ec6b29248d2c61adb1e9263f78e4f7bace1b955014a2d17872cfe4064d"}
+ok
+test_closed_round_opt_in_rejects_past_round_with_open_submission_window (test_live_generation.GenerationTests.test_closed_round_opt_in_rejects_past_round_with_open_submission_window) ... ok
+test_closed_round_opt_in_requires_explicit_past_round (test_live_generation.GenerationTests.test_closed_round_opt_in_requires_explicit_past_round) ... ok
+test_datetime_metadata_and_average_rank_generate_reusable_handoff (test_live_generation.GenerationTests.test_datetime_metadata_and_average_rank_generate_reusable_handoff) ... Pinned round 1394; downloading v6.0 live features
+Downloaded features.json: 1,438 bytes
+Downloaded live.parquet: 60,206 bytes
+{"status": "complete", "round": 1394, "rows": 3, "csv": "C:\\Users\\xinch\\AppData\\Local\\Temp\\tmpl2kkxzew\\handoff\\XinchenGeng_baseline_live_round1394.csv", "model_sha256": "f16d05ec6b29248d2c61adb1e9263f78e4f7bace1b955014a2d17872cfe4064d"}
+ok
+test_existing_data_is_preserved_before_any_output_creation (test_live_generation.GenerationTests.test_existing_data_is_preserved_before_any_output_creation) ... ok
+test_existing_output_is_preserved_before_download_or_data_creation (test_live_generation.GenerationTests.test_existing_output_is_preserved_before_download_or_data_creation) ... ok
+test_round_change_does_not_publish_a_final_csv (test_live_generation.GenerationTests.test_round_change_does_not_publish_a_final_csv) ... Pinned round 1394; downloading v6.0 live features
+Downloaded features.json: 1,438 bytes
+Downloaded live.parquet: 60,206 bytes
+ok
+test_stale_requested_round_stops_before_baseline_or_files (test_live_generation.GenerationTests.test_stale_requested_round_stops_before_baseline_or_files) ... ok
+test_changed_source_live_bytes_are_rejected (test_live_submission.LiveBundleTests.test_changed_source_live_bytes_are_rejected) ... ok
+test_closed_historical_bundle_requires_explicit_audit_opt_in (test_live_submission.LiveBundleTests.test_closed_historical_bundle_requires_explicit_audit_opt_in) ... ok
+test_complete_saved_model_bundle_validates_offline (test_live_submission.LiveBundleTests.test_complete_saved_model_bundle_validates_offline) ... ok
+test_current_round_api_check_still_rejects_closed_historical_round (test_live_submission.LiveBundleTests.test_current_round_api_check_still_rejects_closed_historical_round) ... ok
+test_historical_audit_rejects_current_round_and_rollover_claims (test_live_submission.LiveBundleTests.test_historical_audit_rejects_current_round_and_rollover_claims) ... ok
+test_historical_audit_rejects_submission_window_open_at_generation (test_live_submission.LiveBundleTests.test_historical_audit_rejects_submission_window_open_at_generation) ... ok
+test_inconsistent_download_tournament_is_rejected (test_live_submission.LiveBundleTests.test_inconsistent_download_tournament_is_rejected) ... ok
+test_round_rollover_is_rejected (test_live_submission.LiveBundleTests.test_round_rollover_is_rejected) ... ok
+test_wrong_csv_is_rejected_even_with_matching_recorded_hash (test_live_submission.LiveBundleTests.test_wrong_csv_is_rejected_even_with_matching_recorded_hash) ... ok
+test_average_ties_and_permuted_ticker_alignment (test_live_submission.LiveSubmissionTests.test_average_ties_and_permuted_ticker_alignment) ... ok
+test_changed_ticker_and_duplicate_ticker_are_rejected (test_live_submission.LiveSubmissionTests.test_changed_ticker_and_duplicate_ticker_are_rejected) ... ok
+test_constant_csv_and_model_predictions_are_rejected (test_live_submission.LiveSubmissionTests.test_constant_csv_and_model_predictions_are_rejected) ... ok
+test_extra_or_reordered_columns_are_rejected (test_live_submission.LiveSubmissionTests.test_extra_or_reordered_columns_are_rejected) ... ok
+test_native_feature_nan_is_allowed_but_infinity_is_rejected (test_live_submission.LiveSubmissionTests.test_native_feature_nan_is_allowed_but_infinity_is_rejected) ... ok
+test_nonfinite_and_out_of_bounds_predictions_are_rejected (test_live_submission.LiveSubmissionTests.test_nonfinite_and_out_of_bounds_predictions_are_rejected) ... ok
+test_null_empty_numeric_and_whitespace_ids_are_rejected (test_live_submission.LiveSubmissionTests.test_null_empty_numeric_and_whitespace_ids_are_rejected) ... ok
+test_strings_boolean_country_and_missing_features_are_rejected (test_live_submission.LiveSubmissionTests.test_strings_boolean_country_and_missing_features_are_rejected) ... ok
+test_wrong_tie_handling_is_rejected (test_live_submission.LiveSubmissionTests.test_wrong_tie_handling_is_rejected) ... ok
+test_corr_matches_independent_formula_with_ties (test_metrics.MetricsTests.test_corr_matches_independent_formula_with_ties) ... ok
+test_ncorr_matches_independent_projection (test_metrics.MetricsTests.test_ncorr_matches_independent_projection) ... ok
+test_official_scores_preserve_permuted_key_alignment (test_metrics.MetricsTests.test_official_scores_preserve_permuted_key_alignment) ... ok
+test_population_std_and_initial_loss_drawdown (test_metrics.MetricsTests.test_population_std_and_initial_loss_drawdown) ... ok
+test_rank_ensemble_is_within_date_and_keeps_ties (test_metrics.MetricsTests.test_rank_ensemble_is_within_date_and_keeps_ties) ... ok
+test_zero_std_sharpe_is_undefined (test_metrics.MetricsTests.test_zero_std_sharpe_is_undefined) ... ok
+test_complete_cv_selects_without_development (test_model_optimization.SelectionTests.test_complete_cv_selects_without_development) ... ok
+test_instability_penalty_changes_choice (test_model_optimization.SelectionTests.test_instability_penalty_changes_choice) ... ok
+test_refuses_development_scores (test_model_optimization.SelectionTests.test_refuses_development_scores) ... ok
+test_refuses_missing_dates_or_changed_population (test_model_optimization.SelectionTests.test_refuses_missing_dates_or_changed_population) ... ok
+test_average_tie_ranks_match_independent_implementation (test_optimized_live.OptimizedLiveTests.test_average_tie_ranks_match_independent_implementation) ... ok
+test_boundary_mature_label_is_excluded_by_strict_embargo (test_optimized_live.OptimizedLiveTests.test_boundary_mature_label_is_excluded_by_strict_embargo) ... ok
+test_closed_submission_window_is_rejected (test_optimized_live.OptimizedLiveTests.test_closed_submission_window_is_rejected) ... ok
+test_complete_generation_reloads_copied_bundle_and_checks_csv (test_optimized_live.OptimizedLiveTests.test_complete_generation_reloads_copied_bundle_and_checks_csv) ... {"status": "complete", "round": 1399, "rows": 3, "csv": "C:\\Users\\xinch\\AppData\\Local\\Temp\\tmp3bfa57uw\\handoff\\Optimized_live_round1399.csv", "validation": "passed"}
+ok
+test_constant_or_nonfinite_model_output_is_rejected (test_optimized_live.OptimizedLiveTests.test_constant_or_nonfinite_model_output_is_rejected) ... ok
+test_corrupt_predictions_and_ticker_order_are_rejected (test_optimized_live.OptimizedLiveTests.test_corrupt_predictions_and_ticker_order_are_rejected) ... ok
+test_datetime_round_metadata_and_closed_staking_are_valid (test_optimized_live.OptimizedLiveTests.test_datetime_round_metadata_and_closed_staking_are_valid) ... ok
+test_duplicate_live_tickers_are_rejected (test_optimized_live.OptimizedLiveTests.test_duplicate_live_tickers_are_rejected) ... ok
+test_live_actual_date_and_native_nan_are_preserved (test_optimized_live.OptimizedLiveTests.test_live_actual_date_and_native_nan_are_preserved) ... ok
+test_live_date_must_match_pinned_round (test_optimized_live.OptimizedLiveTests.test_live_date_must_match_pinned_round) ... ok
+test_metadata_order_must_match_saved_model (test_optimized_live.OptimizedLiveTests.test_metadata_order_must_match_saved_model) ... ok
+test_rollover_preserves_failed_record_without_publishing_csv (test_optimized_live.OptimizedLiveTests.test_rollover_preserves_failed_record_without_publishing_csv) ... ok
+test_round_target_mismatch_or_duplicate_metadata_is_rejected (test_optimized_live.OptimizedLiveTests.test_round_target_mismatch_or_duplicate_metadata_is_rejected) ... ok
+test_stale_round_rejected_before_datasets (test_optimized_live.OptimizedLiveTests.test_stale_round_rejected_before_datasets) ... ok
+test_evaluation_labels_are_not_read_and_hash_tampering_fails (test_optimized_models.OptimizedModelTests.test_evaluation_labels_are_not_read_and_hash_tampering_fails) ... Trained O0_small_200k, seed 7: 20 rows, 1 features, 0.00s
+ok
+test_fixed_matrix_and_fresh_parameter_objects (test_optimized_models.OptimizedModelTests.test_fixed_matrix_and_fresh_parameter_objects) ... ok
+test_future_training_duplicates_and_infinity_are_rejected (test_optimized_models.OptimizedModelTests.test_future_training_duplicates_and_infinity_are_rejected) ... ok
+test_nested_samples_and_loaded_model_reproduce_predictions (test_optimized_models.OptimizedModelTests.test_nested_samples_and_loaded_model_reproduce_predictions) ... Trained O0_small_200k, seed 7: 20 rows, 1 features, 0.00s
+Trained O1_medium_600k_ensemble, seed 7: 40 rows, 2 features, 0.00s
+Trained O1_medium_600k_ensemble, seed 19: 40 rows, 2 features, 0.00s
+Trained O1_medium_600k_ensemble, seed 43: 40 rows, 2 features, 0.00s
+Trained O2_medium_1200k_ensemble, seed 7: 60 rows, 2 features, 0.00s
+Trained O2_medium_1200k_ensemble, seed 19: 60 rows, 2 features, 0.00s
+Trained O2_medium_1200k_ensemble, seed 43: 60 rows, 2 features, 0.00s
+Trained O3_regularized_1200k_ensemble, seed 7: 60 rows, 2 features, 0.00s
+Trained O3_regularized_1200k_ensemble, seed 19: 60 rows, 2 features, 0.00s
+Trained O3_regularized_1200k_ensemble, seed 43: 60 rows, 2 features, 0.00s
+ok
+test_rank_mean_preserves_ties_date_groups_and_row_order (test_optimized_models.OptimizedModelTests.test_rank_mean_preserves_ties_date_groups_and_row_order) ... ok
+test_rank_rejects_missing_or_nonfinite_members (test_optimized_models.OptimizedModelTests.test_rank_rejects_missing_or_nonfinite_members) ... ok
+test_equal_date_mass_and_half_life (test_paper_models.PaperWeightTests.test_equal_date_mass_and_half_life) ... ok
+test_future_observation_is_rejected (test_paper_models.PaperWeightTests.test_future_observation_is_rejected) ... ok
+test_order_does_not_change_weight_membership (test_paper_models.PaperWeightTests.test_order_does_not_change_weight_membership) ... ok
+test_cutoff_uses_actual_available_scoring_date (test_paper_protocol.ResearchProtocolTests.test_cutoff_uses_actual_available_scoring_date) ... ok
+test_invalid_feature_is_rejected_and_native_nan_is_retained (test_paper_protocol.ResearchProtocolTests.test_invalid_feature_is_rejected_and_native_nan_is_retained) ... ok
+test_missing_data_type_cannot_default_to_include_all (test_paper_protocol.ResearchProtocolTests.test_missing_data_type_cannot_default_to_include_all) ... ok
+test_observed_later_period_is_named_reused_development (test_paper_protocol.ResearchProtocolTests.test_observed_later_period_is_named_reused_development) ... ok
+test_raw_pool_restores_mature_dates_and_preserves_pilot_files (test_paper_protocol.ResearchProtocolTests.test_raw_pool_restores_mature_dates_and_preserves_pilot_files) ... Research pool train.parquet: retained 2/2
+Research pool validation.parquet: retained 2/4
+ok
+test_rejects_a_weakened_or_inconsistent_cutoff (test_paper_protocol.ResearchProtocolTests.test_rejects_a_weakened_or_inconsistent_cutoff) ... ok
+test_source_specific_data_type_and_target_maturity (test_paper_protocol.ResearchProtocolTests.test_source_specific_data_type_and_target_maturity) ... ok
+test_strict_label_maturity_boundary_and_no_future_data (test_paper_protocol.ResearchProtocolTests.test_strict_label_maturity_boundary_and_no_future_data) ... ok
+test_bootstrap_is_paired_deterministic_and_independently_recomputed (test_paper_statistics.PaperStatisticsTests.test_bootstrap_is_paired_deterministic_and_independently_recomputed) ... ok
+test_bootstrap_rejects_cv_and_mismatched_keys_or_populations (test_paper_statistics.PaperStatisticsTests.test_bootstrap_rejects_cv_and_mismatched_keys_or_populations) ... ok
+test_bootstrap_same_baseline_yields_zero_interval (test_paper_statistics.PaperStatisticsTests.test_bootstrap_same_baseline_yields_zero_interval) ... ok
+test_circular_indices_match_independent_known_rng_and_contiguity (test_paper_statistics.PaperStatisticsTests.test_circular_indices_match_independent_known_rng_and_contiguity) ... ok
+test_selection_rejects_development_and_incomplete_candidate_folds (test_paper_statistics.PaperStatisticsTests.test_selection_rejects_development_and_incomplete_candidate_folds) ... ok
+test_selection_ties_break_by_identifier (test_paper_statistics.PaperStatisticsTests.test_selection_ties_break_by_identifier) ... ok
+test_selection_uses_equal_date_mean_and_fixed_fold_penalty (test_paper_statistics.PaperStatisticsTests.test_selection_uses_equal_date_mean_and_fixed_fold_penalty) ... ok
+test_summary_matches_independent_statistics (test_paper_statistics.PaperStatisticsTests.test_summary_matches_independent_statistics) ... ok
+test_changed_fixed_plan_and_inconsistent_saved_winner_fail (test_refit_optimized_model.WeeklyRefitTests.test_changed_fixed_plan_and_inconsistent_saved_winner_fail) ... ok
+test_existing_output_is_preserved_without_loading_or_training (test_refit_optimized_model.WeeklyRefitTests.test_existing_output_is_preserved_without_loading_or_training) ... ok
+test_invalid_live_dates_and_tickers_fail (test_refit_optimized_model.WeeklyRefitTests.test_invalid_live_dates_and_tickers_fail) ... ok
+test_only_frozen_winner_refits_with_strict_cutoff_and_reloads (test_refit_optimized_model.WeeklyRefitTests.test_only_frozen_winner_refits_with_strict_cutoff_and_reloads) ... Refitting frozen O2_medium_1200k_ensemble: 2 eligible rows, training dates strictly before 2026-08-14, live 2026-11-13
+Refit complete: C:\Users\xinch\AppData\Local\Temp\tmpcyyds14o\refit\final_model\O2_medium_1200k_ensemble\bundle.json
+ok
+test_tampered_selection_incomplete_run_and_development_selection_fail (test_refit_optimized_model.WeeklyRefitTests.test_tampered_selection_incomplete_run_and_development_selection_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 90 tests in 2.319s
+
+OK

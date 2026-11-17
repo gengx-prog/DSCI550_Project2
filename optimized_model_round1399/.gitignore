@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.part
+data/
+!output/optimized_live_round1399/data/
+!output/optimized_live_round1399/data/**
+results/**/folds/
+results/**/validation_predictions.csv

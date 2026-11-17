@@ -1,0 +1,143 @@
+{
+  "B0_fixed_uploaded": {
+    "phase": "reused_development",
+    "selected_model": "O3_regularized_1200k_ensemble",
+    "baseline_model": "B0_fixed_uploaded",
+    "observed_mean_NCORR_delta": 0.01695024044147246,
+    "n_dates": 189,
+    "date_min": "2023-01-06",
+    "date_max": "2026-08-14",
+    "seed": 20261026,
+    "replicates": 2000,
+    "method": "paired circular moving-block bootstrap of chronological per-date NCORR differences",
+    "primary_block_length_dates": 13,
+    "sensitivity_block_length_dates": 26,
+    "interval": "2.5th and 97.5th percentiles of resampled mean differences",
+    "block_bootstrap": {
+      "13": {
+        "block_length_dates": 13,
+        "n_blocks_per_replicate": 15,
+        "replicates": 2000,
+        "ci95_low": 0.0115631968274688,
+        "ci95_high": 0.02174160309276855,
+        "bootstrap_mean": 0.01689678950575756
+      },
+      "26": {
+        "block_length_dates": 26,
+        "n_blocks_per_replicate": 8,
+        "replicates": 2000,
+        "ci95_low": 0.010415178803275226,
+        "ci95_high": 0.022433314069043225,
+        "bootstrap_mean": 0.016935304228895193
+      }
+    },
+    "refit_folds": [
+      "dev_2023",
+      "dev_2024",
+      "dev_2025",
+      "dev_2026"
+    ],
+    "qualifications": [
+      "The development period was observed in the earlier pilot; these intervals are diagnostic historical summaries.",
+      "Paired date differences preserve common scoring populations; individual stock rows are not independent bootstrap observations.",
+      "Circular blocks may cross annual model-refit boundaries and wrap the last date to the first; structural breaks and nonstationarity are not modeled.",
+      "Overlapping 60-day labels motivate contiguous blocks; results depend on the prespecified block length and effective historical sample size.",
+      "The interval conditions on the frozen selected model and does not adjust for candidate selection or earlier adaptive development.",
+      "An interval excluding zero is not confirmatory postselection significance or evidence of future live superiority."
+    ]
+  },
+  "O0_small_200k": {
+    "phase": "reused_development",
+    "selected_model": "O3_regularized_1200k_ensemble",
+    "baseline_model": "O0_small_200k",
+    "observed_mean_NCORR_delta": 0.017431379281667683,
+    "n_dates": 189,
+    "date_min": "2023-01-06",
+    "date_max": "2026-08-14",
+    "seed": 20261026,
+    "replicates": 2000,
+    "method": "paired circular moving-block bootstrap of chronological per-date NCORR differences",
+    "primary_block_length_dates": 13,
+    "sensitivity_block_length_dates": 26,
+    "interval": "2.5th and 97.5th percentiles of resampled mean differences",
+    "block_bootstrap": {
+      "13": {
+        "block_length_dates": 13,
+        "n_blocks_per_replicate": 15,
+        "replicates": 2000,
+        "ci95_low": 0.011586228909051088,
+        "ci95_high": 0.022123056746841962,
+        "bootstrap_mean": 0.017360664962310722
+      },
+      "26": {
+        "block_length_dates": 26,
+        "n_blocks_per_replicate": 8,
+        "replicates": 2000,
+        "ci95_low": 0.012304002609450972,
+        "ci95_high": 0.021998578776435223,
+        "bootstrap_mean": 0.017468028032596387
+      }
+    },
+    "refit_folds": [
+      "dev_2023",
+      "dev_2024",
+      "dev_2025",
+      "dev_2026"
+    ],
+    "qualifications": [
+      "The development period was observed in the earlier pilot; these intervals are diagnostic historical summaries.",
+      "Paired date differences preserve common scoring populations; individual stock rows are not independent bootstrap observations.",
+      "Circular blocks may cross annual model-refit boundaries and wrap the last date to the first; structural breaks and nonstationarity are not modeled.",
+      "Overlapping 60-day labels motivate contiguous blocks; results depend on the prespecified block length and effective historical sample size.",
+      "The interval conditions on the frozen selected model and does not adjust for candidate selection or earlier adaptive development.",
+      "An interval excluding zero is not confirmatory postselection significance or evidence of future live superiority."
+    ]
+  },
+  "O1_medium_600k_ensemble": {
+    "phase": "reused_development",
+    "selected_model": "O3_regularized_1200k_ensemble",
+    "baseline_model": "O1_medium_600k_ensemble",
+    "observed_mean_NCORR_delta": 0.0007850233802439907,
+    "n_dates": 189,
+    "date_min": "2023-01-06",
+    "date_max": "2026-08-14",
+    "seed": 20261026,
+    "replicates": 2000,
+    "method": "paired circular moving-block bootstrap of chronological per-date NCORR differences",
+    "primary_block_length_dates": 13,
+    "sensitivity_block_length_dates": 26,
+    "interval": "2.5th and 97.5th percentiles of resampled mean differences",
+    "block_bootstrap": {
+      "13": {
+        "block_length_dates": 13,
+        "n_blocks_per_replicate": 15,
+        "replicates": 2000,
+        "ci95_low": -0.0012576754766377642,
+        "ci95_high": 0.0028266663117008438,
+        "bootstrap_mean": 0.0007906408961999188
+      },
+      "26": {
+        "block_length_dates": 26,
+        "n_blocks_per_replicate": 8,
+        "replicates": 2000,
+        "ci95_low": -0.0014985678188843131,
+        "ci95_high": 0.003054866530844288,
+        "bootstrap_mean": 0.0007799659359772318
+      }
+    },
+    "refit_folds": [
+      "dev_2023",
+      "dev_2024",
+      "dev_2025",
+      "dev_2026"
+    ],
+    "qualifications": [
+      "The development period was observed in the earlier pilot; these intervals are diagnostic historical summaries.",
+      "Paired date differences preserve common scoring populations; individual stock rows are not independent bootstrap observations.",
+      "Circular blocks may cross annual model-refit boundaries and wrap the last date to the first; structural breaks and nonstationarity are not modeled.",
+      "Overlapping 60-day labels motivate contiguous blocks; results depend on the prespecified block length and effective historical sample size.",
+      "The interval conditions on the frozen selected model and does not adjust for candidate selection or earlier adaptive development.",
+      "An interval excluding zero is not confirmatory postselection significance or evidence of future live superiority."
+    ]
+  }
+}

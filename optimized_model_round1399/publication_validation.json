@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-17T04:12:19.980221+00:00",
+  "copied_source_hashes_checked": 67,
+  "markdown_local_links_missing": 0,
+  "published_tests": 90,
+  "real_portable_bundle_prediction_rows": 7106,
+  "independent_csv_ranks_exact": true,
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791",
+  "zip_sha256": "428da34c3a4115dbdac3bca9cc8fa0b825c8afb10c33291abf62f6c15be4ce92",
+  "large_uncompressed_historical_predictions_excluded": true,
+  "byte_preserving_attributes": true,
+  "prior_baselines_modified": false
+}

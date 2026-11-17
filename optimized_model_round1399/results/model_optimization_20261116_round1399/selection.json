@@ -1,0 +1,58 @@
+{
+  "selected_model": "O3_regularized_1200k_ensemble",
+  "candidates": {
+    "O0_small_200k": {
+      "mean_NCORR": 0.008545751178321048,
+      "fold_mean_std_ddof0": 0.005378153787694851,
+      "selection_score": 0.005856674284473623,
+      "fold_means": {
+        "cv_2019": 0.011651554968244408,
+        "cv_2020": -0.00013903386456946677,
+        "cv_2021": 0.011093488794616458,
+        "cv_2022": 0.013557350684978466
+      },
+      "n_dates": 183
+    },
+    "O1_medium_600k_ensemble": {
+      "mean_NCORR": 0.03162546834284279,
+      "fold_mean_std_ddof0": 0.010631045513169781,
+      "selection_score": 0.0263099455862579,
+      "fold_means": {
+        "cv_2019": 0.022241296951192258,
+        "cv_2020": 0.022458899402774124,
+        "cv_2021": 0.0483830549216847,
+        "cv_2022": 0.030458601175645878
+      },
+      "n_dates": 183
+    },
+    "O2_medium_1200k_ensemble": {
+      "mean_NCORR": 0.0308211327976068,
+      "fold_mean_std_ddof0": 0.009528579112407462,
+      "selection_score": 0.02605684324140307,
+      "fold_means": {
+        "cv_2019": 0.022706332238181342,
+        "cv_2020": 0.0220388772354066,
+        "cv_2021": 0.04570383596599701,
+        "cv_2022": 0.0304203954418971
+      },
+      "n_dates": 183
+    },
+    "O3_regularized_1200k_ensemble": {
+      "mean_NCORR": 0.033555217439713084,
+      "fold_mean_std_ddof0": 0.00966575046251664,
+      "selection_score": 0.028722342208454765,
+      "fold_means": {
+        "cv_2019": 0.030551625886181127,
+        "cv_2020": 0.02191743725040032,
+        "cv_2021": 0.048593594861484894,
+        "cv_2022": 0.03163907992889524
+      },
+      "n_dates": 183
+    }
+  },
+  "selection_phase": "cv",
+  "criterion": "equal-date mean NCORR - 0.5 * population std of four annual mean NCORRs",
+  "development_used_for_selection": false,
+  "all_historical_periods_are_development_evidence": true,
+  "frozen_at_utc": "2026-11-17T01:53:54.910858+00:00"
+}

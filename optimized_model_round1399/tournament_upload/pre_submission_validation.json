@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-17T04:11:18.317949+00:00",
+  "round": 1399,
+  "csv": "G:\\DSCI-550\\Project2\\output\\optimized_live_round1399\\Optimized_live_round1399.csv",
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791",
+  "rows": 7106,
+  "columns": [
+    "numerai_ticker",
+    "prediction"
+  ],
+  "saved_model_reload_and_independent_ranks": true,
+  "full_training_date_max": "2026-08-07",
+  "live_date": "2026-11-13",
+  "account_upload_performed": false
+}

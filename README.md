@@ -1,5 +1,9 @@
 # DSCI550_Project2
 
+## November 16, 2026 optimized candidate
+
+[Optimized candidate, model and full report](optimized_model_round1399/README.md) adds a 350-feature, 1.2-million-row, three-seed regularized LightGBM candidate and a verified [round 1399 CSV](optimized_model_round1399/output/optimized_live_round1399/Optimized_live_round1399.csv). Historical development mean NCORR is 0.027082 versus 0.026297 for the earlier 600k ensemble, but stability and 2025 performance regress and the paired interval includes zero. This is a forward-validation candidate, not a proven stable replacement. All 90 project tests and the independent historical/live audit passed. Tournament upload has not yet been completed and the target model identity is pending verification; see the candidate directory for the current submission status. [Complete handoff ZIP](downloads/Numerai_optimized_model_round1399.zip).
+
 ## November 16, 2026 baseline update
 
 The fixed `B0_small_main` baseline was retrained and independently audited on

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-17T02:07:19.114145+00:00",
+  "live_rows": 7106,
+  "model_reload_prediction_max_abs_error": 0.0,
+  "csv_roundtrip_exact": true,
+  "independent_average_ranks": "scipy.stats.rankdata(method=average)",
+  "ticker_coverage_and_order_exact": true,
+  "strict_65_weekday_label_embargo": true,
+  "bundle_sha256": "d976db8f69c76c13789b83d63c66c7192aa4610a7cfca62df10c03c3b5a21c5c",
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791"
+}

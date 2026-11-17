@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "zip": "G:\\DSCI-550\\Project2\\output\\Numerai_optimized_model_round1399.zip",
+  "bytes": 35465721,
+  "sha256": "428da34c3a4115dbdac3bca9cc8fa0b825c8afb10c33291abf62f6c15be4ce92",
+  "files": 93,
+  "all_archived_files_independently_rehashed": true,
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791",
+  "scope": "Selected model, live data and CSV, historical exports, receipts, source and tests. Historical data and annual fold models remain in the original workspace."
+}
