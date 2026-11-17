@@ -1,0 +1,8 @@
+{
+  "query": "\nquery PublicSubmissionEvidence($modelName: String!, $modelId: ID!, $round: Int!) {\n  profile: v3UserProfile(modelName: $modelName, tournament: 8) {\n    id username accountName tournament\n  }\n  performances: v2RoundModelPerformances(\n    modelId: $modelId, tournament: 8, submittedOnly: true\n  ) {\n    roundNumber submissionId tickersSubmittedCount tickersAcceptedCount\n    roundResolved roundTarget roundScoreTime roundResolveTime\n    allSubmissionScores { version value submissionId roundNumber day date }\n  }\n  rounds(tournament: 8, number: $round) {\n    number tournament target openTime closeTime closeStakingTime scoreTime resolveTime\n  }\n}\n",
+  "variables": {
+    "modelName": "jackie_geng",
+    "modelId": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+    "round": 1399
+  }
+}

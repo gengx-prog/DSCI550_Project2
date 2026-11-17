@@ -1,0 +1,72 @@
+{
+  "status": "submitted_and_verified",
+  "competition": "Numerai Classic",
+  "data_version": "v6.0",
+  "target": "target_jupiter_60",
+  "round": 1399,
+  "model_name": "JACKIE_GENG",
+  "model_id": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+  "optimized_model": "O3_regularized_1200k_ensemble",
+  "submission_id": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+  "previous_submission_id": "af978659-20e6-4f5d-993d-7ba027007447",
+  "submission_id_changed_from_previous": true,
+  "submitted_via": "Numerai website Upload Submission CSV chooser",
+  "submitted_file": "output/optimized_live_round1399/Optimized_live_round1399.csv",
+  "csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791",
+  "csv_rows": 7106,
+  "tickers_submitted_count": 7106,
+  "tickers_accepted_count": 7106,
+  "all_tickers_accepted": true,
+  "website_status": "Late",
+  "submission_time_displayed_local": "2026-11-16 20:28 PST",
+  "submission_time_precision": "minute",
+  "timezone": "America/Los_Angeles",
+  "dashboard_confirmation": "Round 1399 models submitted: 1 / 1",
+  "submission_tooltip": "Round 1399: Late Filename: Optimized_live_round1399.csv Open: 5:16 AM Sat 11/14/26 Deadline: 8:00 AM Sun 11/15/26 Submitted: 8:28 PM Mon 11/16/26",
+  "observed_at_utc": "2026-11-17T04:30:32.477137+00:00",
+  "account_upload_performed": true,
+  "website_csv_filename_confirmed": true,
+  "public_submission_id_and_acceptance_confirmed": true,
+  "selected_scoring_submission_independently_verified": false,
+  "round_schedule": {
+    "closeStakingTime": "2026-11-15T16:00:00Z",
+    "closeTime": "2026-11-17T12:00:00Z",
+    "number": 1399,
+    "openTime": "2026-11-14T13:16:22Z",
+    "resolveTime": "2027-02-11T16:00:00Z",
+    "scoreTime": "2026-11-20T16:00:00Z",
+    "target": "target_jupiter_60",
+    "tournament": 8
+  },
+  "scores_available": false,
+  "stake_action_performed": false,
+  "funds_action_performed": false,
+  "user_confirmed_destination": "JACKIE_GENG (current login and original local baseline model)",
+  "evidence_files": {
+    "pre_submission_validation.json": {
+      "sha256": "82533a832c6291d5f8c9c6e687d6dc66d65f6ae5bc3db06613cf9c3f103069db"
+    },
+    "website_observation.json": {
+      "sha256": "c375231dea8deb8bf57f8ece8dbc2e4bafda72cc3c3e9c280e57032cea787e08"
+    },
+    "public_after_upload/request.json": {
+      "sha256": "03985a558141bb1f433ef1fed8d211a9c1632c61c9804862bf1dd6853ef0bfb2"
+    },
+    "public_after_upload/response_body.json": {
+      "sha256": "4be36062c7d1aad2f22b5048743630dd66c8e175498087dfba4ad1b4be27dfc2"
+    },
+    "public_after_upload/response_metadata.json": {
+      "sha256": "e17450979520d980f27a88bae29725efb417bfc7924fe526eaaf23f5311932ad"
+    },
+    "public_after_upload/summary.json": {
+      "sha256": "b94ad0b98d6d93be62b67ef97b1c940382aee100d3b1a6d2a2185f328ddbadee"
+    }
+  },
+  "interpretation": [
+    "The website labels this submission Late; it must not be described as on time merely because the general API closeTime had not passed.",
+    "The public API confirms a new submission ID and all 7106 tickers accepted. It does not expose the filename, CSV hash or selected-scoring state.",
+    "The observed chooser path, UI filename and independently checked local SHA256 link this upload to the optimized CSV.",
+    "All six public score values are still null. Local historical NCORR is not a live score.",
+    "Original model handoff ZIP and generation records preserve their pre-upload historical state."
+  ]
+}

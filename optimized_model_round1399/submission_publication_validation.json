@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-17T04:31:57.380523+00:00",
+  "copied_tournament_evidence_files": 11,
+  "combined_receipt_evidence_hashes_checked": 6,
+  "new_submission_id": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+  "previous_submission_id": "af978659-20e6-4f5d-993d-7ba027007447",
+  "website_filename": "Optimized_live_round1399.csv",
+  "website_status": "Late",
+  "tickers_accepted": 7106,
+  "website_csv_and_public_id_correlated": true,
+  "live_scores_available": false,
+  "selected_staking_scoring_submission_verified": false,
+  "zip_sha256_unchanged": "428da34c3a4115dbdac3bca9cc8fa0b825c8afb10c33291abf62f6c15be4ce92",
+  "original_generation_records_unchanged": true
+}

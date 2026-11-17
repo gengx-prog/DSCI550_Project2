@@ -1,6 +1,6 @@
 # Numerai round 1399 optimized candidate
 
-**Tournament upload status: not yet submitted.** The logged-in Numerai model has not yet been verified against the screenshot model `ZEXUGAO`. See [submission status](submission_status.json) and the [passed pre-submission file check](tournament_upload/pre_submission_validation.json).
+**Tournament upload verified: JACKIE_GENG, round 1399, Late.** The user explicitly chose `JACKIE_GENG`. The website confirmed `Optimized_live_round1399.csv`, submitted **November 16, 2026 at 20:28 PST**; the public API returned new submission ID `a47f8a97-130f-4dfe-a5e2-5e24cc873f06` and accepted **7,106 / 7,106** tickers. See [current submission status](results/model_optimization_20261116_round1399/CURRENT_SUBMISSION_STATUS.md), [combined receipt](output/numerai_optimized_submission_20261116_round1399/submission_status.json), and [original public response](output/numerai_optimized_submission_20261116_round1399/public_after_upload/response_body.json). **Late does not mean on time; live scores remain unavailable.** No staking or funds action occurred, and selection of this late upload for staking scores was not independently verified.
 
 This directory publishes the candidate completed on November 16, 2026: **350 numeric features, up to 1.2 million training rows per member, and a regularized LightGBM rank ensemble with seeds 7, 19 and 43**. Each member uses 800 trees, learning rate 0.03 and L2 regularization 10. Training respects a strict 65-weekday label-maturity embargo.
 
@@ -19,9 +19,9 @@ O3 improves mean NCORR over O1 by approximately **2.99%**, but NCORR mean/std fa
 - [Independent historical and live audit](results/model_optimization_20261116_round1399/validation.json)
 - [Complete handoff ZIP](../downloads/Numerai_optimized_model_round1399.zip) and [ZIP hash receipt](../downloads/Numerai_optimized_model_round1399.zip.json)
 
-The CSV is specific to round 1399, whose actual live date is November 13, 2026. Final training dates are strictly before August 14; the latest eligible training date is August 7. Generation records describe the historical state when no account upload had yet occurred. Any later tournament upload must be documented by a separate submission receipt.
+The CSV is specific to round 1399, whose actual live date is November 13, 2026. Final training dates are strictly before August 14; the latest eligible training date is August 7. Generation records describe the historical state when no account upload had yet occurred. The later verified website upload is documented separately above; the ZIP and generation-time report retain their original pre-upload state.
 
-The directory includes six new optimization entry points, required helper scripts, the complete tests, native final models, public live data, predictions, metrics and provenance hashes. Multi-GB historical data and annual fold models are omitted from Git. The 97 MB historical row-level prediction CSV is available inside the ZIP. Full historical reproduction requires downloading data and rerunning the experiment. Existing baseline directories and Git history are preserved.
+The directory includes six new optimization entry points plus a public submission-check utility, required helper scripts, the complete tests, native final models, public live data, predictions, metrics and provenance hashes. Multi-GB historical data and annual fold models are omitted from Git. The 97 MB historical row-level prediction CSV is available inside the ZIP. Full historical reproduction requires downloading data and rerunning the experiment. Existing baseline directories and Git history are preserved.
 
 Run from this directory:
 
@@ -32,3 +32,5 @@ python -m venv .venv
 ```
 
 Full experiment and weekly-update commands are in the Chinese report. `scripts/refit_optimized_model.py` refits only the frozen CV winner; `scripts/generate_optimized_live.py` checks the current round and creates the corresponding CSV. Runtime receipts preserve original absolute paths, so use CLI arguments to supply paths after moving to another machine.
+
+The public checker stores its unmodified JSON response body and a summary. Its `account_upload_performed=false` only states that the checker did not upload; the combined receipt records the separate website action. Before/after responses show the old and new submission IDs.

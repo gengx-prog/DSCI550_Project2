@@ -1,0 +1,10 @@
+{
+  "endpoint": "https://api-tournament.numer.ai/",
+  "http_status": 200,
+  "observed_at_utc": "2026-11-17T04:28:51.399546+00:00",
+  "server_date": "Tue, 17 Nov 2026 04:28:51 GMT",
+  "response_body_sha256": "4be36062c7d1aad2f22b5048743630dd66c8e175498087dfba4ad1b4be27dfc2",
+  "response_body_preserved_without_json_reserialization": true,
+  "authentication_used": false,
+  "account_upload_performed": false
+}

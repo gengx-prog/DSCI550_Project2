@@ -1,0 +1,94 @@
+{
+  "status": "observed",
+  "checked_at_utc": "2026-11-17T04:28:51.400841+00:00",
+  "source": "https://api-tournament.numer.ai/",
+  "model_name": "jackie_geng",
+  "model_id": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+  "public_model_identity_verified": true,
+  "round": 1399,
+  "matching_performance_records": 1,
+  "observations": [
+    {
+      "submission_id": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+      "tickers_submitted_count": 7106,
+      "tickers_accepted_count": 7106,
+      "all_submitted_tickers_accepted": true,
+      "expected_ticker_count_matches": true,
+      "previous_submission_id": "af978659-20e6-4f5d-993d-7ba027007447",
+      "submission_id_changed_from_previous": true,
+      "round_resolved": false,
+      "submission_scores": [
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "0"
+        },
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "0"
+        },
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "0"
+        },
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "1"
+        },
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "1"
+        },
+        {
+          "date": null,
+          "day": null,
+          "roundNumber": null,
+          "submissionId": "a47f8a97-130f-4dfe-a5e2-5e24cc873f06",
+          "value": null,
+          "version": "1"
+        }
+      ]
+    }
+  ],
+  "round_schedule": {
+    "closeStakingTime": "2026-11-15T16:00:00Z",
+    "closeTime": "2026-11-17T12:00:00Z",
+    "number": 1399,
+    "openTime": "2026-11-14T13:16:22Z",
+    "resolveTime": "2027-02-11T16:00:00Z",
+    "scoreTime": "2026-11-20T16:00:00Z",
+    "target": "target_jupiter_60",
+    "tournament": 8
+  },
+  "authentication_used": false,
+  "account_upload_performed": false,
+  "optimized_csv_identity_confirmed": false,
+  "limitations": [
+    "This script only reads public records; it never uploads or changes a submission.",
+    "Matching accepted counts alone do not establish which CSV was uploaded.",
+    "A previous submission ID must not be presented as a new upload receipt.",
+    "The public fields do not verify filename, CSV hash, selected state or website Late status.",
+    "A website receipt and local artifact hash are required to link an upload to the optimized CSV.",
+    "Round matching is done locally; the API rejected its advertised roundNumberEq argument."
+  ],
+  "response_body_sha256": "4be36062c7d1aad2f22b5048743630dd66c8e175498087dfba4ad1b4be27dfc2"
+}

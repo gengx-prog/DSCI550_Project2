@@ -1,0 +1,14 @@
+{
+  "status": "observed",
+  "observed_at_utc": "2026-11-17T04:30:32.477137+00:00",
+  "url": "https://numer.ai/dashboard/submissions",
+  "model": "JACKIE_GENG",
+  "round": 1399,
+  "dashboard_confirmation": "Round 1399 models submitted: 1 / 1",
+  "submission_tooltip": "Round 1399: Late Filename: Optimized_live_round1399.csv Open: 5:16 AM Sat 11/14/26 Deadline: 8:00 AM Sun 11/15/26 Submitted: 8:28 PM Mon 11/16/26",
+  "website_status": "Late",
+  "filename": "Optimized_live_round1399.csv",
+  "submitted_local": "2026-11-16 20:28 PST",
+  "time_precision": "minute as displayed by website",
+  "scope": "Transcription of the website UI observed after upload and refresh, not an unmodified server response."
+}
