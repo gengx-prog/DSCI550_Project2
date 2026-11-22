@@ -1,0 +1,22 @@
+{
+  "tournament": "Numerai Classic",
+  "round": 1404,
+  "model": "JACKIE_GENG_BASELINE",
+  "filename": "JACKIE_GENG_BASELINE_round1404.csv",
+  "local_csv_sha256": "4e38b074c46a928108bfeb970f52c1b6a4232161ade79f3109994930499ea033",
+  "submission_id": "cca77bf4-780b-4aef-a352-bd81e45f6020",
+  "tickers_submitted": 7075,
+  "tickers_accepted": 7075,
+  "dashboard_status": "On-time",
+  "dashboard_submitted_local": "2026-11-22 02:34 America/Los_Angeles",
+  "dashboard_time_precision": "minute",
+  "dashboard_count": "Round 1404 models submitted: 2 / 2",
+  "dashboard_url": "https://numer.ai/dashboard/submissions",
+  "public_api": "https://api-tournament.numer.ai/",
+  "public_model_id": "c924ed83-f808-447c-ab3f-a2208dd15546",
+  "public_confirmation_observed_utc": "2026-11-22T10:35:17.934853+00:00",
+  "score_time_utc": "2026-11-27T16:00:00Z",
+  "resolve_time_utc": "2027-02-18T16:00:00Z",
+  "website_tooltip": "Round 1404: On-time\nFilename: JACKIE_GENG_BASELINE_round1404.csv\nOpen: 5:12 AM Sat 11/21/26\nDeadline: 8:00 AM Sun 11/22/26\nSubmitted: 2:34 AM Sun 11/22/26",
+  "previous_round_1404_submission_id": null
+}

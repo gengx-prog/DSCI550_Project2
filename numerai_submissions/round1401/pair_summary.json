@@ -1,0 +1,57 @@
+{
+  "source": "https://api-tournament.numer.ai/",
+  "scope": "Read-only public observations for Numerai Classic tournament 8 verify submission IDs, coverage and scores. Filename, file hash, selected state, Late status and queue state require separate website evidence.",
+  "round": 1401,
+  "verified_models": 2,
+  "fully_accepted_models": 2,
+  "models": {
+    "JACKIE_GENG_BASELINE": {
+      "model_uuid": "c924ed83-f808-447c-ab3f-a2208dd15546",
+      "round_submission_id": "ccfd8923-ff79-4e0a-82c3-73b91a9a3873",
+      "accepted_tickers": 7092,
+      "submitted_tickers": 7092,
+      "score_entries": 6,
+      "available_score_values": [],
+      "round_resolved": false,
+      "observed_utc": "2026-11-18T20:28:53.987989+00:00",
+      "observed_los_angeles": "2026-11-18T12:28:53.987989-08:00",
+      "verified_response_sha256": "9f66b7555b33972975af0bd9b2da42abb9074e7d37b401b4d4286ccb19c87b8e",
+      "raw_public_response": "JACKIE_GENG_BASELINE/response_body.json"
+    },
+    "JACKIE_GENG": {
+      "model_uuid": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+      "round_submission_id": "a76f5c78-7432-4cdb-8fe7-197244dfca6a",
+      "accepted_tickers": 7092,
+      "submitted_tickers": 7092,
+      "score_entries": 6,
+      "available_score_values": [],
+      "round_resolved": false,
+      "observed_utc": "2026-11-18T20:28:53.912244+00:00",
+      "observed_los_angeles": "2026-11-18T12:28:53.912244-08:00",
+      "verified_response_sha256": "36f325202eb74759ffa6693cbdc936adcf4d93091acd4d3f2a995b834feef4bb",
+      "raw_public_response": "JACKIE_GENG/response_body.json"
+    }
+  },
+  "schedule": {
+    "openTime": {
+      "utc": "2026-11-18T13:00:18Z",
+      "los_angeles": "2026-11-18T05:00:18-08:00"
+    },
+    "closeStakingTime": {
+      "utc": "2026-11-18T14:05:02Z",
+      "los_angeles": "2026-11-18T06:05:02-08:00"
+    },
+    "closeTime": {
+      "utc": "2026-11-19T12:00:00Z",
+      "los_angeles": "2026-11-19T04:00:00-08:00"
+    },
+    "scoreTime": {
+      "utc": "2026-11-24T16:00:00Z",
+      "los_angeles": "2026-11-24T08:00:00-08:00"
+    },
+    "resolveTime": {
+      "utc": "2027-02-15T16:00:00Z",
+      "los_angeles": "2027-02-15T08:00:00-08:00"
+    }
+  }
+}

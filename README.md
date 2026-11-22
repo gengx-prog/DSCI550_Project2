@@ -1,5 +1,7 @@
 # DSCI550_Project2
 
+[Competition website submissions](numerai_submissions/README.md) lists the seven CSV uploads from November 16 through November 22, 2026, with model descriptions and submission receipts.
+
 ## November 16, 2026 optimized candidate
 
 [Optimized candidate, model and full report](optimized_model_round1399/README.md) adds a 350-feature, 1.2-million-row, three-seed regularized LightGBM candidate and a verified [round 1399 CSV](optimized_model_round1399/output/optimized_live_round1399/Optimized_live_round1399.csv). Historical development mean NCORR is 0.027082 versus 0.026297 for the earlier 600k ensemble, but stability and 2025 performance regress and the paired interval includes zero. This is a forward-validation candidate, not a proven stable replacement. All 90 project tests and the independent historical/live audit passed. The user-selected model JACKIE_GENG now has a verified round 1399 upload of Optimized_live_round1399.csv, accepted 7,106/7,106, with website status **Late** at 2026-11-16 20:28 PST. Live scores remain unavailable; see the [current receipt](optimized_model_round1399/output/numerai_optimized_submission_20261116_round1399/submission_status.json). No staking or funds action occurred. [Complete handoff ZIP](downloads/Numerai_optimized_model_round1399.zip).
@@ -9,9 +11,7 @@
 The fixed `B0_small_main` baseline was retrained and independently audited on
 official v6.0 round **1399** data with its original parameters. The live CSV has
 **7,106** predictions and passed a full independent saved-model,
-rank and ticker-coverage check. The API reported round 1399 during generation and
-validation. The recorded general submission deadline is **2026-11-17 04:00 PST**;
-check the current API before submitting. No Numerai account submission was performed.
+rank and ticker-coverage check. The [website receipt](numerai_submissions/round1399/baseline_receipt.json) records the subsequent baseline upload on November 16 at 15:05 PST.
 
 - [Round 1399 prediction CSV](XinchenGeng_baseline_live_round1399/XinchenGeng_baseline_live_round1399.csv)
 - [Live model, audit and reproduction](XinchenGeng_baseline_live_round1399/README.md)

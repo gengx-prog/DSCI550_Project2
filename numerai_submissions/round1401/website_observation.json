@@ -1,0 +1,20 @@
+{
+  "source": "https://numer.ai/dashboard/submissions",
+  "observed_at_utc": "2026-11-18 20:29:16 UTC",
+  "round": 1401,
+  "dashboard_after_refresh": "Round 1401 models submitted: 2 / 2",
+  "baseline": {
+    "model": "JACKIE_GENG_BASELINE",
+    "source": "../paired_live_round1401/Fixed_baseline_round1401.csv",
+    "round_1401": "Round 1401: Late Filename: Fixed_baseline_round1401.csv Open: 5:00 AM Wed 11/18/26 Deadline: 6:05 AM Wed 11/18/26 Submitted: 12:26 PM Wed 11/18/26",
+    "next_round": "Round 1402: Queued Filename: Fixed_baseline_round1401.csv Open: 5:00 AM Thu 11/19/26 Deadline: 6:05 AM Thu 11/19/26 Submitted: 12:26 PM Wed 11/18/26"
+  },
+  "improved": {
+    "model": "JACKIE_GENG",
+    "source": "../paired_live_round1401/Improved_round1401.csv",
+    "round_1401": "Round 1401: Late Filename: Improved_round1401.csv Open: 5:00 AM Wed 11/18/26 Deadline: 6:05 AM Wed 11/18/26 Submitted: 12:28 PM Wed 11/18/26",
+    "next_round": "Round 1402: Queued Filename: Improved_round1401.csv Open: 5:00 AM Thu 11/19/26 Deadline: 6:05 AM Thu 11/19/26 Submitted: 12:28 PM Wed 11/18/26"
+  },
+  "stake_action_performed": false,
+  "artifact_type": "Round-specific Numerai Classic prediction CSVs"
+}
