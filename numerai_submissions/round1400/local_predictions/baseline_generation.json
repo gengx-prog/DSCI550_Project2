@@ -1,0 +1,49 @@
+{
+  "artifact_type": "Historical reconstruction for the fixed baseline model",
+  "round": 1400,
+  "feature_date": "2026-11-16",
+  "generated_utc": "2026-11-23T00:23:37.461845+00:00",
+  "retrospective": true,
+  "tournament_upload_performed_by_generation": false,
+  "official_submission_evidence": false,
+  "round_metadata_verified_via": "https://api-tournament.numer.ai/",
+  "round_metadata": {
+    "closeStakingTime": "2026-11-17T14:18:00Z",
+    "closeTime": "2026-11-18T13:00:18Z",
+    "dataDatestamp": 20261116,
+    "number": 1400,
+    "openTime": "2026-11-17T13:12:21Z",
+    "target": "target_jupiter_60",
+    "tournament": 8
+  },
+  "model_slot": "JACKIE_GENG_BASELINE",
+  "model": "all_feature_fixed_tree",
+  "model_sha256": "078764bb56f6f3fecf4f914a52df1912e6da75ac07a995f6ce01250a2eca7521",
+  "model_local_last_modified_utc": "2026-11-18T09:23:40.654603+00:00",
+  "training_last_date": "2018-12-28",
+  "unique_tickers": 7106,
+  "unique_predictions": 7106,
+  "feature_count": 1039,
+  "live_inputs": [
+    {
+      "dataset": "v6.0/features.json",
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261116/v6.0/features.json",
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+      "bytes": 47870
+    },
+    {
+      "dataset": "v6.0/live.parquet",
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261116/v6.0/live.parquet",
+      "sha256": "254f0185c719a8d1c3134df766cca9770fb95c77e9c82a88197ee67698d3c0f4",
+      "bytes": 4415429
+    }
+  ],
+  "round_1401_reproduction": {
+    "file": "Fixed_baseline_round1401.csv",
+    "expected_sha256": "a8bcfc7cf4e59736b829c8e49d197d1a063fd581b0449cf69972f5437ab21c87",
+    "byte_exact": true
+  },
+  "validation": "Verified frozen model and official-data hashes, feature order and date, training cutoff, exact ticker coverage, independent percentile ranks and CSV round-trip.",
+  "file": "Fixed_baseline_round1400_retrospective.csv",
+  "sha256": "601945ac9dac5e29b93582eaa35f9cfbbcf1141c41512b571b56bf219a06ae11"
+}

@@ -1,6 +1,6 @@
 # DSCI550_Project2
 
-[Competition website submissions](numerai_submissions/README.md) lists the seven CSV uploads from November 16 through November 22, 2026, with model descriptions and submission receipts.
+[Competition website submissions](numerai_submissions/README.md) lists seven direct CSV uploads and three predictions Numerai carried into rounds 1400 and 1402. Each round links to its competition records and prediction files.
 
 ## November 16, 2026 optimized candidate
 

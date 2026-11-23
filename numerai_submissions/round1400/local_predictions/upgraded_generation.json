@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-11-18T09:53:25.423043+00:00",
+  "round": 1400,
+  "feature_date": "2026-11-16T00:00:00",
+  "selected_model": "full_bag_annual_rank_blend",
+  "model_files": {
+    "full_bag": {
+      "training_max": "2018-12-28",
+      "run_sha256": "a1dc9b704e50296c1bae1237d234704da5a6763c33f0953022d4955b7052ce3c",
+      "models": {
+        "model_1.txt": "fa175ed5f0c17dca61e84ac8f95ab872e539aa30f36f29c22623c100231e26f7",
+        "model_2.txt": "e6b79b4f78a0dac9a6659e79231cec3fd088572846130719c8f9a984f905ee3b",
+        "model_3.txt": "4671ac7abae8af3849eb57eef6a7563205c94c79e03dbc7b5d637b85f31e48e3",
+        "model_4.txt": "b79b291dcc38b4d028efc854cfb518257a0c669ab08548f1f35bb3669817e8a9"
+      }
+    },
+    "annual_tree": {
+      "training_max": "2026-08-14",
+      "models": {
+        "model.txt": "25305a65e70dc819c24cc531fea22b2cfab90e96aad48f5ebc8a43181e55aa46"
+      }
+    }
+  },
+  "selection_sha256": "922861eb2a207ffd61bf3a0de168ae17875a9184d1293b68712f872cab4f647d",
+  "live_sha256": "254f0185c719a8d1c3134df766cca9770fb95c77e9c82a88197ee67698d3c0f4",
+  "numerai_tickers": 7106,
+  "unique_prediction_values": 6199,
+  "csv": "XinchenGeng_upgraded_round1400.csv",
+  "csv_sha256": "0fe703ff37d9e62d584cecce6979af4c69dcbef926d077860353f558cbcd06c4",
+  "csv_reload_and_independent_ranks": "passed",
+  "external_upload_performed": false,
+  "pending_validation": {
+    "first": "2026-08-21T00:00:00",
+    "last": "2026-11-06T00:00:00",
+    "dates": 12,
+    "rows": 85497,
+    "last_scored_date": "2026-08-14T00:00:00",
+    "source_sha256": "39f7d75445e07a3597eb2b0d206b96d420fcd64255aee83f9dc94dd6f1913bd7",
+    "sha256": "5732cd972b93c4760d3230a77f0667733442851b139665529bdf0bd5dae51067",
+    "model_by_date": "Same-year walk-forward weights or fixed pre-2019 weights",
+    "targets_available_at_generation": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "competition": "Numerai Classic",
+  "round": 1400,
+  "dashboard": {
+    "url": "https://numer.ai/dashboard/submissions",
+    "observed_date_local": "2026-11-22",
+    "timezone": "America/Los_Angeles",
+    "models": {
+      "JACKIE_GENG": {
+        "dashboard_tooltip": "Round 1400: On-time\nFilename: Optimized_live_round1399.csv\nOpen: 5:12 AM Tue 11/17/26\nDeadline: 6:18 AM Tue 11/17/26\nSubmitted: 5:15 AM Tue 11/17/26",
+        "archived_csv": "../../optimized_model_round1399/output/optimized_live_round1399/Optimized_live_round1399.csv",
+        "archived_csv_sha256": "7d6e433caaea594e8cdd79c3f6f7dde4231ddadb95a18b4d4e2b40065f7da791"
+      },
+      "JACKIE_GENG_BASELINE": {
+        "dashboard_tooltip": "Round 1400: No submission\nOpen: 5:12 AM Tue 11/17/26\nDeadline: 6:18 AM Tue 11/17/26"
+      }
+    }
+  },
+  "public_api": {
+    "url": "https://api-tournament.numer.ai/",
+    "method": "POST",
+    "retrieved_at_utc": "2026-11-23T00:23:34Z",
+    "server_date": "Mon, 23 Nov 2026 00:23:34 GMT",
+    "request": {
+      "query": "query ClassicRoundRecord($number: Int!, $main: ID!, $baseline: ID!) {\n  rounds(tournament: 8, number: $number) { number tournament target openTime closeStakingTime closeTime scoreTime resolveTime }\n  JACKIE_GENG: v2RoundModelPerformances(modelId: $main, tournament: 8, submittedOnly: true) { roundNumber submissionId tickersSubmittedCount tickersAcceptedCount }\n  JACKIE_GENG_BASELINE: v2RoundModelPerformances(modelId: $baseline, tournament: 8, submittedOnly: true) { roundNumber submissionId tickersSubmittedCount tickersAcceptedCount }\n}",
+      "variables": {
+        "number": 1400,
+        "main": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+        "baseline": "c924ed83-f808-447c-ab3f-a2208dd15546"
+      }
+    },
+    "response_filter": "Keep performance rows where roundNumber equals the requested number. An empty array means the API returned no submitted performance for that model and round.",
+    "response_data_for_round": {
+      "rounds": [
+        {
+          "closeStakingTime": "2026-11-17T14:18:00Z",
+          "closeTime": "2026-11-18T13:00:18Z",
+          "number": 1400,
+          "openTime": "2026-11-17T13:12:21Z",
+          "resolveTime": "2027-02-12T16:00:00Z",
+          "scoreTime": "2026-11-23T16:00:00Z",
+          "target": "target_jupiter_60",
+          "tournament": 8
+        }
+      ],
+      "JACKIE_GENG": [
+        {
+          "roundNumber": 1400,
+          "submissionId": "70711bec-c1c4-4a9e-961f-409f2ef53b24",
+          "tickersAcceptedCount": 7106,
+          "tickersSubmittedCount": 7106
+        }
+      ],
+      "JACKIE_GENG_BASELINE": []
+    }
+  }
+}

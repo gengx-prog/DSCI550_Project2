@@ -1,0 +1,70 @@
+{
+  "artifact_type": "Historical reconstruction using the round 1401 model weights",
+  "round": 1402,
+  "feature_date": "2026-11-18",
+  "generated_utc": "2026-11-23T00:22:56.073456+00:00",
+  "retrospective": true,
+  "tournament_upload_performed_by_generation": false,
+  "official_submission_evidence": false,
+  "round_metadata": {
+    "closeStakingTime": "2026-11-19T14:06:38Z",
+    "closeTime": "2026-11-20T13:00:23Z",
+    "dataDatestamp": 20261118,
+    "number": 1402,
+    "openTime": "2026-11-19T13:00:19Z",
+    "resolveTime": "2027-02-16T16:00:00Z",
+    "scoreTime": "2026-11-25T16:00:00Z",
+    "target": "target_jupiter_60",
+    "tournament": 8
+  },
+  "input_source": "https://api-tournament.numer.ai/",
+  "live_inputs": [
+    {
+      "dataset": "v6.0/features.json",
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261117/v6.0/features.json",
+      "sha256": "ee6c00bc9d5cb78aaab986630138512945301a3c588865ad61da5d0dea5ff634",
+      "bytes": 47870
+    },
+    {
+      "dataset": "v6.0/live.parquet",
+      "url": "https://numerai-datasets-us-west-2.s3-us-west-2.amazonaws.com/20261118/v6.0/live.parquet",
+      "sha256": "e5d924e550f1246a888266521bccfa1ee2513c2e7c2d64777acd9e893c5d6b34",
+      "bytes": 4404216
+    }
+  ],
+  "feature_schema_source_round": 1401,
+  "unique_tickers": 7086,
+  "models": {
+    "fixed_baseline": "078764bb56f6f3fecf4f914a52df1912e6da75ac07a995f6ce01250a2eca7521",
+    "full_bag": {
+      "model_1.txt": "fa175ed5f0c17dca61e84ac8f95ab872e539aa30f36f29c22623c100231e26f7",
+      "model_2.txt": "e6b79b4f78a0dac9a6659e79231cec3fd088572846130719c8f9a984f905ee3b",
+      "model_3.txt": "4671ac7abae8af3849eb57eef6a7563205c94c79e03dbc7b5d637b85f31e48e3",
+      "model_4.txt": "b79b291dcc38b4d028efc854cfb518257a0c669ab08548f1f35bb3669817e8a9"
+    },
+    "annual_tree": "25305a65e70dc819c24cc531fea22b2cfab90e96aad48f5ebc8a43181e55aa46"
+  },
+  "annual_training_latest_date": "2026-08-14",
+  "feature_count": 1039,
+  "prediction_method": "Fixed baseline uses the single pre-existing tree model. Improved uses the frozen four-model full-bag and annual tree with the same within-date rank transforms as round 1401.",
+  "round_1401_reproduction": {
+    "byte_exact_against_prior_local_CSVs": true,
+    "sha256": {
+      "Fixed_baseline_round1401.csv": "a8bcfc7cf4e59736b829c8e49d197d1a063fd581b0449cf69972f5437ab21c87",
+      "Improved_round1401.csv": "a99e33752e35c32c588d2317ce45f80fc826a7c4a02daf147e33c2d030a3a7a9"
+    }
+  },
+  "validation": "Confirmed eligible training cutoff, model and data hashes, feature order, exact round date, unique complete ticker coverage, independent percentile ranks and CSV round-trip.",
+  "files": {
+    "Fixed_baseline_round1402_retrospective.csv": {
+      "model_slot": "JACKIE_GENG_BASELINE",
+      "sha256": "f26cb15b4502ce795296c8cd831c9be8cfbe6a79e80a3871725553791881905c",
+      "unique_predictions": 7086
+    },
+    "Improved_round1402_retrospective.csv": {
+      "model_slot": "JACKIE_GENG",
+      "sha256": "4e1a1d5aca4c119b0fcd642cb3a43b288e9f44b8a3484a54636ef7a614d075df",
+      "unique_predictions": 6091
+    }
+  }
+}

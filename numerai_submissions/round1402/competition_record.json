@@ -1,0 +1,67 @@
+{
+  "competition": "Numerai Classic",
+  "round": 1402,
+  "dashboard": {
+    "url": "https://numer.ai/dashboard/submissions",
+    "observed_date_local": "2026-11-22",
+    "timezone": "America/Los_Angeles",
+    "models": {
+      "JACKIE_GENG": {
+        "dashboard_tooltip": "Round 1402: On-time\nFilename: Improved_round1401.csv\nOpen: 5:00 AM Thu 11/19/26\nDeadline: 6:06 AM Thu 11/19/26\nSubmitted: 5:03 AM Thu 11/19/26",
+        "archived_csv": "../round1401/Improved_round1401.csv",
+        "archived_csv_sha256": "a99e33752e35c32c588d2317ce45f80fc826a7c4a02daf147e33c2d030a3a7a9"
+      },
+      "JACKIE_GENG_BASELINE": {
+        "dashboard_tooltip": "Round 1402: On-time\nFilename: Fixed_baseline_round1401.csv\nOpen: 5:00 AM Thu 11/19/26\nDeadline: 6:06 AM Thu 11/19/26\nSubmitted: 5:03 AM Thu 11/19/26",
+        "archived_csv": "../round1401/Fixed_baseline_round1401.csv",
+        "archived_csv_sha256": "a8bcfc7cf4e59736b829c8e49d197d1a063fd581b0449cf69972f5437ab21c87"
+      }
+    },
+    "previous_queue_observation": "../round1401/website_observation.json"
+  },
+  "public_api": {
+    "url": "https://api-tournament.numer.ai/",
+    "method": "POST",
+    "retrieved_at_utc": "2026-11-23T00:23:34Z",
+    "server_date": "Mon, 23 Nov 2026 00:23:34 GMT",
+    "request": {
+      "query": "query ClassicRoundRecord($number: Int!, $main: ID!, $baseline: ID!) {\n  rounds(tournament: 8, number: $number) { number tournament target openTime closeStakingTime closeTime scoreTime resolveTime }\n  JACKIE_GENG: v2RoundModelPerformances(modelId: $main, tournament: 8, submittedOnly: true) { roundNumber submissionId tickersSubmittedCount tickersAcceptedCount }\n  JACKIE_GENG_BASELINE: v2RoundModelPerformances(modelId: $baseline, tournament: 8, submittedOnly: true) { roundNumber submissionId tickersSubmittedCount tickersAcceptedCount }\n}",
+      "variables": {
+        "number": 1402,
+        "main": "957368db-a58c-4bd3-b63c-c32fe6b8f120",
+        "baseline": "c924ed83-f808-447c-ab3f-a2208dd15546"
+      }
+    },
+    "response_filter": "Keep performance rows where roundNumber equals the requested number. An empty array means the API returned no submitted performance for that model and round.",
+    "response_data_for_round": {
+      "rounds": [
+        {
+          "closeStakingTime": "2026-11-19T14:06:38Z",
+          "closeTime": "2026-11-20T13:00:23Z",
+          "number": 1402,
+          "openTime": "2026-11-19T13:00:19Z",
+          "resolveTime": "2027-02-16T16:00:00Z",
+          "scoreTime": "2026-11-25T16:00:00Z",
+          "target": "target_jupiter_60",
+          "tournament": 8
+        }
+      ],
+      "JACKIE_GENG": [
+        {
+          "roundNumber": 1402,
+          "submissionId": "2145758c-3516-488b-8e53-5dcca9fd3983",
+          "tickersAcceptedCount": 7092,
+          "tickersSubmittedCount": 7092
+        }
+      ],
+      "JACKIE_GENG_BASELINE": [
+        {
+          "roundNumber": 1402,
+          "submissionId": "4cdf3bc7-c465-49b9-82dd-bcfae7bb886c",
+          "tickersAcceptedCount": 7092,
+          "tickersSubmittedCount": 7092
+        }
+      ]
+    }
+  }
+}
